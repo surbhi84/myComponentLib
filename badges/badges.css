@@ -1,1 +1,50 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
+body {
+  font-family: var(--nunito);
+}
+
+.icon {
+  height: 2rem;
+}
+
+.badge {
+  display: inline-block;
+  position: relative;
+  bottom: 1.3rem;
+  right: 1rem;
+  border-radius: 100%;
+  background-color: var(--red);
+  color: rgb(233, 224, 224);
+  height: 0.9rem;
+  width: 0.9rem;
+  text-align: center;
+  line-height: 0.9rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.avatar-badge {
+  display: inline-block;
+  padding: 0.35rem;
+  position: relative;
+  bottom: 5%;
+  right: 30%;
+  border-radius: 50%;
+}
+
+.colr1 {
+  background-color: var(--blue-pr);
+}
+.colr2 {
+  background-color: var(--red);
+}
+.colr3 {
+  background-color: var(--green-wp);
+}
