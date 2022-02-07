@@ -47,21 +47,23 @@
 
   /* Neutral Colors */
 
-  --gray: #a3a5ad;
-  --gray-light: #bebfc4;
+  --gray: #4e4f50;
+  --gray-light: #a6a9b4;
 
   --white: #fff;
   --white-dark: #f1f2f3;
 
   /* Utility colors */
-  --green: #5ece7b;
+  --green: #23bd4c;
   --green-light: #9ee2b0;
+  --green-wp: #00e676;
 
-  --red: #d12727;
-  --red-light: #f8dedf;
+  --red: #ff0000ec;
+  --red-light: #e4777b;
 
   --blue: #0468db;
-  --blue-light: #b4d2f4;
+  --blue-light: #8fbbec;
+  --blue-pr: #0f79af;
 
   /*=====  End of Colors  ======*/
 
