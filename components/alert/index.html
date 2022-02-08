@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="alert component" />
+
+    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="/components/" />
+    <link rel="stylesheet" href="/styleGuide/util.css" />
+    <link rel="stylesheet" href="/styleGuide/main.css" />
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+    <script src="/prism/prism.js" defer></script>
+
+    <title>Alert</title>
+  </head>
+  <body>
+    <div class="parent-div">
+      <h3>Simple alert</h3>
+      <div class="alert clr-gp">
+        <img src="./iconSvg/checkFilled.svg" alt="check icon" />
+        Your product has been added to cart.
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+
+      <div class="alert clr-rp">
+        <img src="./iconSvg/errorFilled.svg" alt="error icon" />
+        Ooops! your product can't be added to cart.
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+
+      <div class="alert clr-yp">
+        <img src="./iconSvg/errorFilledOrange.svg" alt="error icon" />
+        There is some issue, upgrade now!
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+
+      <div class="alert clr-bp">
+        <img src="./iconSvg/infoFilled.svg" alt="info icon" />
+        Sale is going live buy your faves soon!
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+
+      <pre><code class="language-markup">
+        <div class="alert clr-gp">
+          <img src="./iconSvg/checkFilled.svg" alt="check icon">
+          your product has been added to cart.
+          <span class="cross"><i class="fas fa-times"></i></span>
+        </div>
+
+        <div class="alert clr-rp">
+          <img src="./iconSvg/errorFilled.svg" alt="error icon" />
+          Ooops! your product can't be added to cart.
+          <span class="cross"><i class="fas fa-times"></i></span>
+        </div>
+  
+        <div class="alert clr-yp">
+          <img src="./iconSvg/errorFilledOrange.svg" alt="error icon" />
+          There is some issue, upgrade now!
+          <span class="cross"><i class="fas fa-times"></i></span>
+        </div>
+  
+        <div class="alert clr-bp">
+          <img src="./iconSvg/infoFilled.svg" alt="info icon" />
+          Sale is going live buy your faves soon!
+          <span class="cross"><i class="fas fa-times"></i></span>
+        </div>
+      </code></pre>
+
+      <h3>Detailed alert</h3>
+      <div class="alert clr-gp flex-col">
+        <span class="cross"><i class="fas fa-times"></i></span>
+        <img src="./iconSvg/verifiedFilled.svg" alt="verified icon" />
+        <strong class="notify">Account verified</strong>
+        <p class="text-center marg-un">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente
+          mollitia.
+        </p>
+      </div>
+
+      <div class="alert clr-rp flex-col">
+        <span class="cross"><i class="fas fa-times"></i></span>
+        <img src="./iconSvg/errorFilled.svg" alt="error icon" />
+        <strong class="notify">Error verifying</strong>
+        <p class="text-center marg-un">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente
+          mollitia.
+        </p>
+      </div>
+
+      <pre><code class="language-markup">
+        <div class="alert clr-gp flex-col">
+          <span class="cross"><i class="fas fa-times"></i></span>
+          <img src="./iconSvg/verifiedFilled.svg" alt="verified icon" />
+          <strong class="notify">Account verified</strong>
+          <p class="text-center marg-un">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ut sapiente mollitia.
+          </p>
+        </div>
+  
+        <div class="alert clr-rp flex-col">
+          <span class="cross"><i class="fas fa-times"></i></span>
+          <img src="./iconSvg/errorFilled.svg" alt="error icon" />
+          <strong class="notify">Error verifying</strong>
+          <p class="text-center marg-un">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ut sapiente mollitia.
+          </p>
+        </div>
+      </code></pre>
+
+      <h3>Detailed alert horizontal align</h3>
+      <div class="alert clr-gp">
+        <img src="./iconSvg/check.svg" alt="check icon" />
+        <div class="flex-col">
+          <strong>Success!</strong>
+          <p class="marg-un">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores, id!
+          </p>
+        </div>
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+
+      <pre><code class="language-markup">
+        <div class="alert clr-gp">
+          <img src="./iconSvg/check.svg" alt="check icon" />
+          <div class="flex-col">
+            <strong>Success!</strong>
+            <p class="marg-un">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, id!
+            </p>
+          </div>
+          <span class="cross"><i class="fas fa-times"></i></span>
+        </div>
+      </code></pre>
+    </div>
+  </body>
+</html>

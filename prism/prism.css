@@ -29,7 +29,8 @@ pre[class*="language-"] {
 }
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background: #272822;
+  background: #121827;
+  /* background-color: #000000de; */
 }
 :not(pre) > code[class*="language-"] {
   padding: 0.1em;
@@ -155,13 +156,13 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
 }
 
 .language-markup {
-  width: 45rem;
-  padding: 1rem;
-  text-align: center;
+  width: 40rem;
+  /* padding: 1rem; */
+  /* text-align: center; */
 }
 
 @media (max-width: 768px) {
   .language-markup {
-    width: 80vw;
+    width: 90vw;
   }
 }

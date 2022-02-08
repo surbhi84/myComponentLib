@@ -1,0 +1,58 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  font-family: var(--nunito);
+}
+
+.parent-div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-xs);
+  max-width: 30rem;
+  padding: var(--spacing-xs);
+  border-radius: 3px;
+}
+
+.clr-gp {
+  background-color: var(--green-pastel);
+}
+
+.clr-rp {
+  background-color: var(--red-pastel);
+}
+
+.clr-yp {
+  background-color: var(--yellow-pastel);
+}
+
+.clr-bp {
+  background-color: var(--blue-pastel);
+}
+
+.notify {
+  font-size: var(--fs-m);
+}
+
+.cross {
+  margin-left: auto;
+  color: #161616;
+  align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  .alert {
+    padding: var(--spacing-2xs);
+    font-size: var(--fs-xs);
+    gap: var(--spacing-2xs);
+  }
+  .notify {
+    font-size: var(--fs-s);
+  }
+}
