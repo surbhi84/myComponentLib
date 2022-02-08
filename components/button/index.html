@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="alert component" />
+
     <link rel="stylesheet" href="./button.css" />
     <link rel="stylesheet" href="/components/avatar/avatar.css" />
     <link rel="stylesheet" href="/components/alert/alert.css" />
     <link rel="stylesheet" href="/styleGuide/main.css" />
     <link rel="stylesheet" href="/styleGuide/util.css" />
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+    <script src="/prism/prism.js" defer></script>
 
     <title>Button</title>
   </head>
@@ -19,8 +25,11 @@
       <button class="solid-btn clr-gl m">Secondary</button>
       <button class="solid-btn clr-rl m">Danger</button>
     </div>
-
-    <pre><code class="language-markup"></code></pre>
+    <pre><code class="language-markup">
+      <button class="solid-btn clr-bl m">Primary</button>
+      <button class="solid-btn clr-gl m">Secondary</button>
+      <button class="solid-btn clr-rl m">Danger</button>
+    </code></pre>
 
     <h3>Buttons with different sizes</h3>
     <div class="showcase-div">
@@ -28,8 +37,11 @@
       <button class="solid-btn clr-gl m">Secondary</button>
       <button class="solid-btn clr-rl l">Danger</button>
     </div>
-    <pre><code class="language-markup"></code></pre>
-
+    <pre><code class="language-markup">
+      <button class="solid-btn clr-bl s">Primary</button>
+      <button class="solid-btn clr-gl m">Secondary</button>
+      <button class="solid-btn clr-rl l">Danger</button>
+    </code></pre>
 
     <h3>outlined buttons</h3>
     <div class="showcase-div">
@@ -37,11 +49,28 @@
       <button class="outline-btn outline-green m">Secondary</button>
       <button class="outline-btn outline-red m">Danger</button>
     </div>
-    <pre><code class="language-markup"></code></pre>
-
+    <pre><code class="language-markup">
+      <button class="outline-btn outline-blue m">Primary</button>
+      <button class="outline-btn outline-green m">Secondary</button>
+      <button class="outline-btn outline-red m">Danger</button>
+    </code></pre>
 
     <h3>Icon buttons</h3>
     <div class="showcase-div">
+      <button class="icon-btn clr-bl m">
+        Add to cart<img src="./Icons/cart.svg" alt="cart icon" />
+      </button>
+      <button class="icon-btn clr-gl m">
+        Wishlist<img src="./Icons/heart.svg" alt="heart icon" />
+      </button>
+      <button class="icon-btn clr-bl m">
+        Wishlist<img src="./Icons/heartFilled.svg" alt="heart icon" />
+      </button>
+      <button class="icon-btn clr-rl m">
+        Delete<img src="./Icons/deleteFilled.svg" alt="delete icon" />
+      </button>
+    </div>
+    <pre><code class="language-markup">
       <button class="icon-btn clr-bl m">
         Add to cart<img src="./Icons/cart.svg" alt="cart icon" />
       </button>
@@ -54,31 +83,44 @@
       <button class="icon-btn clr-rl m ">
         Delete<img src="./Icons/deleteFilled.svg" alt="delete icon" />
       </button>
-    </div>
-    <pre><code class="language-markup"></code></pre>
-
+    </code></pre>
 
     <h3>Buttons with link</h3>
     <div class="showcase-div">
-      <a href="https://www.google.com/"></a>
-      <button class="solid-btn clr-bl m">Google
-      </button></a>
+      <a href="https://www.google.com/">
+        <button class="solid-btn clr-bl m">Google</button></a
+      >
       <a href="https://neog.camp/level-one">
-        <button class="solid-btn clr-gl m">Neog</button></a>
+        <button class="solid-btn clr-gl m">Neog</button></a
+      >
     </div>
-    <pre><code class="language-markup"></code></pre>
-
+    <pre><code class="language-markup">
+      <a href="https://www.google.com/" target="blank">
+      <button class="solid-btn clr-bl m">Google</button></a>
+      <a href="https://neog.camp/level-one" target="blank">
+      <button class="solid-btn clr-gl m">Neog</button></a>
+    </code></pre>
 
     <h3>Floating action buttons</h3>
     <div class="showcase-div">
+      <button class="float-btn flex-center">
+        <img src="./Icons/add.svg" class="float-icon" alt="add icon" />
+      </button>
+      <button class="float-btn flex-center">
+        <img
+          src="./Icons/heartFilled.svg"
+          class="float-icon"
+          alt="heart icon"
+        />
+      </button>
+    </div>
+    <pre><code class="language-markup">
       <button class="float-btn flex-center">
         <img src="./Icons/add.svg" class="float-icon" alt="add icon">
       </button>
       <button class="float-btn flex-center">
         <img src="./Icons/heartFilled.svg" class="float-icon" alt="heart icon" />
       </button>
-    <pre><code class="language-markup"></code></pre>
-
-    </div>
+    </code></pre>
   </body>
 </html>
