@@ -29,7 +29,7 @@
 
 @font-face {
   font-family: "Nunito";
-  src: url("/fonts/Nunito-VariableFont_wght.ttf");
+  src: url("/styleGuide/fonts/Nunito-VariableFont_wght.ttf");
 }
 
 /*=============================================
@@ -58,13 +58,18 @@
   --green: #23bd4c;
   --green-light: #9ee2b0;
   --green-wp: #00e676;
+  --green-pastel: #c6f6d5;
 
   --red: #ff0000ec;
   --red-light: #e4777b;
+  --red-pastel: #fed7d7;
 
   --blue: #0468db;
   --blue-light: #8fbbec;
   --blue-pr: #0f79af;
+  --blue-pastel: #cce5ff;
+
+  --yellow-pastel: #fff3cd;
 
   /*=====  End of Colors  ======*/
 
@@ -93,7 +98,7 @@
   --fs-l: 2rem; /* 32px */
   --fs-m: 1.5rem; /* 24px */
   --fs-s: 1rem; /* 16px */
-  --fs-xs: 0.5rem; /* 8px */
+  --fs-xs: 0.8rem; /* 8px */
 
   /* Heading font sizes */
   --h-1: 3rem; /* 64px */
@@ -128,9 +133,9 @@
   =============================================*/
 
   --breakpoint-xs: 30rem; /* 480px */
-  --breakpoint-sm: 40rem; /* 640px */
-  --breakpoint-md: 48rem; /* 768px */
-  --breakpoint-lg: 64rem; /* 1024px */
+  --breakpoint-s: 40rem; /* 640px */
+  --breakpoint-m: 48rem; /* 768px */
+  --breakpoint-l: 64rem; /* 1024px */
   --breakpoint-xl: 80rem; /* 1280px */
   --breakpoint-2xl: 96rem; /* 1536px */
 
@@ -141,15 +146,17 @@
   =============================================*/
 
   --spacing-none: 0rem;
-  --spacing-xxxs: 0.125rem; /* 2px */
-  --spacing-xxs: 0.25rem; /* 4px */
-  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-4xs: 0.125rem; /* 2px */
+  --spacing-3xs: 0.25rem; /* 4px */
+  --spacing-2xs: 0.5rem; /* 8px */
+  --spacing-xs: 0.8rem;
   --spacing-sm: 1rem; /* 16px */
-  --spacing-md: 1.5rem; /* 24px */
-  --spacing-lg: 2rem; /* 32px */
-  --spacing-xl: 2.5rem; /* 40px */
-  --spacing-xxl: 4rem; /* 64px */
-  --spacing-xxxl: 5rem; /* 80px */
+  --spacing-md: 1.2rem;
+  --spacing-l: 1.5rem; /* 24px */
+  --spacing-xl: 2rem; /* 32px */
+  --spacing-2xl: 2.5rem; /* 40px */
+  --spacing-3xl: 4rem; /* 64px */
+  --spacing-4xl: 5rem; /* 80px */
 
   /*=====  End of Spacing  ======*/
 
