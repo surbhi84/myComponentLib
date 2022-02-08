@@ -1,0 +1,73 @@
+body {
+  font-family: var(--nunito);
+}
+
+.solid-btn {
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.outline-btn {
+  border: 2px solid;
+  border-radius: 0.4rem;
+  background-color: var(--white);
+}
+
+.icon-btn {
+  display: flex;
+  border-radius: 0.4rem;
+  border: none;
+  text-align: center;
+  line-height: var(--lh-s);
+  margin: unset;
+}
+
+.s {
+  padding: 0.3rem 0.5rem;
+}
+
+.m {
+  padding: 0.5rem 0.8rem;
+}
+
+.l {
+  padding: 0.8rem 1rem;
+}
+
+.clr-bl {
+  background-color: var(--blue-light);
+}
+
+.clr-gl {
+  background-color: var(--green-light);
+}
+
+.clr-rl {
+  background-color: var(--red-light);
+}
+
+.outline-blue {
+  border-color: var(--blue-light);
+  color: var(--blue-light);
+}
+
+.outline-green {
+  border-color: var(--green-light);
+  color: var(--green-light);
+}
+.outline-red {
+  border-color: var(--red-light);
+  color: var(--red-light);
+}
+
+.float-btn {
+  background-color: var(--red-pastel);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.float-icon {
+  height: 1.3rem;
+}
