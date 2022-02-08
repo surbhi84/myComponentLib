@@ -15,7 +15,7 @@ body {
   right: 1rem;
   border-radius: 100%;
   background-color: var(--red);
-  color: rgb(233, 224, 224);
+  color: var(--white-dull);
   height: 0.9rem;
   width: 0.9rem;
   text-align: center;
@@ -39,12 +39,12 @@ body {
   border-radius: 50%;
 }
 
-.colr1 {
+.blue {
   background-color: var(--blue-pr);
 }
-.colr2 {
+.red {
   background-color: var(--red);
 }
-.colr3 {
+.green {
   background-color: var(--green-wp);
 }
