@@ -1,0 +1,47 @@
+body {
+  font-family: var(--nunito);
+}
+
+.show {
+  margin: var(--spacing-l);
+  position: relative;
+}
+
+.input-style {
+  height: 2rem;
+  font-size: 1rem;
+  border: 0.125rem solid var(--blue-pr);
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+.input-label {
+  position: absolute;
+  top: -1.4ex;
+  left: var(--spacing-xs);
+  background-color: var(--white);
+}
+
+.text-area {
+  height: 4rem;
+  text-align: center;
+}
+
+.curved-edge {
+  border-radius: 0.2rem;
+  border: 0.1rem solid var(--green-light);
+  outline: none;
+}
+
+input:invalid {
+  border: 0.2rem solid var(--red-light);
+}
+
+.input-line {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--gray);
+}
+.input-line:focus {
+  border-bottom: 2px solid var(--green-light);
+}

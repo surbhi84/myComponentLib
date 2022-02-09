@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="input component" />
+
+    <link rel="stylesheet" href="/styleGuide/util.css" />
+    <link rel="stylesheet" href="/styleGuide/main.css" />
+
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="/components/button/button.css" />
+    <link rel="stylesheet" href="/components/alert/alert.css" />
+
+
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+    <script src="/prism/prism.js" defer></script>
+    <title>input</title>
+  </head>
+  <body>
+    <h3>Input with label on border</h3>
+    <div class="show">
+      <label class="input-label" for="in"> Input </label>
+      <input id="in" class="input-style" type="number" ></input>
+    </div>
+
+    <pre><code class="language-markup">
+      <label class="input-label" for="in"> Input </label>
+      <input id="in" class="input-style" type="number" ></input>
+    </code></pre>
+
+<h3>Input with curved edges</h3>
+    <div class="show">
+      <input type="text" class="curved-edge">
+    </div>
+
+    <pre><code class="language-markup"></code></pre>
+    
+    <div class="show">
+      <input type="text" class="input-line">
+    </div>
+    
+
+    <form class="show">
+      <label for="imp">This is a important input you must fill it.</label>
+      <input id="imp" name="important" required />
+      <button class="solid-btn color-rp btn-sm">Submit</button>
+    </form>
+
+
+
+  </body>
+</html>
