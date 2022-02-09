@@ -20,19 +20,19 @@ body {
   border-radius: 3px;
 }
 
-.clr-gp {
+.color-gp {
   background-color: var(--green-pastel);
 }
 
-.clr-rp {
+.color-rp {
   background-color: var(--red-pastel);
 }
 
-.clr-yp {
+.color-yp {
   background-color: var(--yellow-pastel);
 }
 
-.clr-bp {
+.color-bp {
   background-color: var(--blue-pastel);
 }
 
@@ -42,7 +42,7 @@ body {
 
 .cross {
   margin-left: auto;
-  color: #161616;
+  color: var(--black);
   align-self: flex-start;
 }
 

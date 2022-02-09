@@ -22,15 +22,15 @@ body {
   margin: unset;
 }
 
-.s {
+.btn-sm {
   padding: 0.3rem 0.5rem;
 }
 
-.m {
+.btn-md {
   padding: 0.5rem 0.8rem;
 }
 
-.l {
+.btn-lg {
   padding: 0.8rem 1rem;
 }
 

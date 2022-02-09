@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="alert component" />
+
+    <link rel="stylesheet" href="./cards.css" />
+    <link rel="stylesheet" href="/styleGuide/main.css" />
+    <link rel="stylesheet" href="/styleGuide/util.css" />
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+    <script src="/prism/prism.js" defer></script>
+    <title>cards</title>
+  </head>
+
+  <body>
+    <div class="showcase-div">
+      <div>
+        <h3>Simple card with shadow</h3>
+        <div class="card">
+          <img src="./mugs.webp" alt="mug set" class="img-size" />
+          <div class="pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+          <div class="btns">
+            <button class="btn">
+              <img src="./iconSvg/heartFilled.svg" />
+            </button>
+            <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+          </div>
+        </div>
+      </div>
+
+      <pre><code class="language-markup">
+    <div class="card">
+      <img src="./mugs.webp" alt="mug set" class="img-size" />
+      <div class="pad-topleft">
+        <h4 class="marg-un">GOODHOMES</h4>
+        <span>4-Pcs Printed Bone China Cups Set</span>
+      </div>
+      <div class="pad-topleft">
+        <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+      </div>
+      <div class="btns">
+        <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+        <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+      </div>
+    </div>
+    </code></pre>
+
+      <div>
+        <h3>Card with badge</h3>
+        <div class="card">
+          <span class="card-badge">#1 Bestseller</span>
+          <img src="./mugs.webp" alt="mug set" class="img-size" />
+          <div class="pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+          <div class="btns">
+            <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+            <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+          </div>
+        </div>
+      </div>
+
+      <pre><code class="language-markup">
+      <div class="card">
+        <span class="card-badge">#1 Bestseller</span>
+        <img src="./mugs.webp" alt="mug set" class="img-size" />
+        <div class="pad-topleft">
+          <h4 class="marg-un">GOODHOMES</h4>
+          <span>4-Pcs Printed Bone China Cups Set</span>
+        </div>
+        <div class="pad-topleft">
+          <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+        </div>
+        <div class="btns">
+          <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+          <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+        </div>
+      </div>
+      </code></pre>
+
+      <div>
+        <h3>Card with close icon</h3>
+        <div class="card">
+          <span class="cross">
+            <i class="fas fa-times"></i> </i> 
+          </span>
+          <img src="./mugs.webp" alt="mug set" class="img-size" />
+          <div class="pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+          <div class="btns">
+            <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+            <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+          </div>
+        </div>
+      </div>
+
+      <pre><code class="language-markup">
+        <div class="card">
+          <span class="cross">
+            <i class="fas fa-times" style="font-size: 1.2rem"> </i>
+          </span>
+          <img src="./mugs.webp" alt="mug set" class="img-size" />
+          <div class="pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+          <div class="btns">
+            <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+            <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+          </div>
+        </div>
+      </code></pre>
+
+      <div>
+        <h3>Card with text overlay</h3>
+        <div class="card text-overlay-card">
+          <img src="./mugs.webp" alt="mug set" class="img-size" />
+          <div class="text-overlay pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+          <div class="btns">
+            <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+            <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+          </div>
+        </div>
+      </div>
+
+      <pre><code class="language-markup">
+        <div class="card text-overlay-card">
+          <img src="./mugs.webp" alt="mug set" class="img-size" />
+          <div class="text-overlay pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+          <div class="btns">
+            <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+            <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+          </div>
+        </div>
+      </code></pre>
+
+      <div>
+        <h3>Card with only text</h3>
+        <div class="text-only card">
+          <div class="pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+            <strong> PRODUCT DETAILS</strong>
+            <p class="marg-un">
+              Pattern: Printed Finish: Glossy Material: Bone China Material &
+              Care Bone China Wipe with a clean, dry cloth to remove dust
+            </p>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <pre><code class="language-markup">
+        <div class="text-only card">
+          <div class="pad-topleft">
+            <h4 class="marg-un">GOODHOMES</h4>
+            <span>4-Pcs Printed Bone China Cups Set</span>
+            <strong> PRODUCT DETAILS</strong>
+            <p class="marg-un">
+              Pattern: Printed Finish: Glossy Material: Bone China Material & Care
+              Bone China Wipe with a clean, dry cloth to remove dust
+            </p>
+          </div>
+          <div class="pad-topleft">
+            <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+          </div>
+        </div>
+      </code></pre>
+
+      <div>
+        <h3>Horizontal card</h3>
+        <div class="hrz-card">
+          <img src="./mugs.webp" alt="mug set" class="hrz-img-size"/>
+          <div>
+            <div class="pad-topleft">
+              <h4 class="marg-un">GOODHOMES</h4>
+              <span>4-Pcs Printed Bone China Cups Set</span>
+            </div>
+            <div class="pad-topleft">
+              <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+            </div>
+            <div class="btns">
+              <button class="btn">
+                <img src="./iconSvg/heartFilled.svg" />
+              </button>
+              <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <pre><code class="language-markup">
+          <div class="hrz-card">
+            <img src="./mugs.webp" alt="mug set" class="hrz-img-size" />
+            <div class="pad-topleft">
+              <div class="pad-topleft" >
+                <h4 class="marg-un">GOODHOMES</h4>
+                <span>4-Pcs Printed Bone China Cups Set</span>
+              </div>
+              <div class="pad-topleft">
+                <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+              </div>
+              <div class="btns">
+                <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+                <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+              </div>
+            </div>
+          </div></div>
+        </code></pre>
+
+    </div>
+  </body>
+</html>
