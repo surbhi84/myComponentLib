@@ -49,6 +49,7 @@
 
   --black: #161616;
 
+  --grey: grey;
   --gray: #454647;
   --gray-light: #a6a9b4;
 
@@ -94,12 +95,13 @@
   --nunito: "Nunito", sans-serif; /* 2 */
 
   /* Font sizes */
-
+  --fs-xxl: 4rem;
   --fs-xl: 3rem; /* 64px */
   --fs-l: 2rem; /* 32px */
   --fs-m: 1.5rem; /* 24px */
   --fs-s: 1rem; /* 16px */
   --fs-xs: 0.8rem; /* 8px */
+  --fs-xxs: 0.5rem;
 
   /* Heading font sizes */
   --h-1: 3rem; /* 64px */
@@ -111,7 +113,7 @@
 
   /* Font weights */
 
-  --fw-light: 300;
+  --fw-light: 100;
   --fw-normal: 400;
   --fw-medium: 500;
   --fw-semibold: 600;
