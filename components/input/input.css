@@ -9,10 +9,8 @@ body {
 
 .input-style {
   height: 2rem;
-  font-size: 1rem;
   border: 0.125rem solid var(--blue-pr);
   border-radius: 0.3rem;
-  outline: none;
 }
 
 .input-label {
@@ -22,26 +20,24 @@ body {
   background-color: var(--white);
 }
 
-.text-area {
-  height: 4rem;
-  text-align: center;
-}
-
 .curved-edge {
   border-radius: 0.2rem;
-  border: 0.1rem solid var(--green-light);
+  border: 0.15rem solid var(--green-light);
+}
+
+.input-line {
+  border: none;
+  border-bottom: 0.15rem solid var(--gray);
+}
+
+.input-line:focus {
+  border-bottom: 0.15rem solid var(--blue-pr);
+}
+
+input {
   outline: none;
 }
 
 input:invalid {
   border: 0.2rem solid var(--red-light);
-}
-
-.input-line {
-  border: none;
-  outline: none;
-  border-bottom: 2px solid var(--gray);
-}
-.input-line:focus {
-  border-bottom: 2px solid var(--green-light);
 }
