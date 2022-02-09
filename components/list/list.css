@@ -1,22 +1,35 @@
 .stacked-list {
   list-style: none;
+  width: max-content;
 }
 
-.lis-item {
+.li-stack {
+  padding: 0 var(--spacing-xs);
   margin-bottom: -1px;
-  border: 1px solid grey;
-  width: 5rem;
+  border: 0.1rem solid var(--gray-dark);
   text-align: center;
   border-radius: 2px;
-  color: white;
-  background-color: indigo;
+  background-color: var(--blue-pastel);
 }
 
-.lis-item1 {
+.li-stack-gap {
+  padding: 0 var(--spacing-xs);
   margin: 0.2rem;
-  width: 5rem;
   text-align: center;
-  border-radius: 2px;
-  background-color: hotpink;
-  /* padding: 0.5rem; */
+  border-radius: 0.1rem;
+  background-color: var(--blue-light);
+}
+
+.stack-list {
+  list-style: none;
+  width: max-content;
+}
+
+.li {
+  padding: 0 var(--spacing-xs);
+  border-bottom: 0.1rem solid var(--gray-dark);
+}
+
+.stack-list li:last-child {
+  border-bottom: none;
 }
