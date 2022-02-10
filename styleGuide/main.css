@@ -172,5 +172,6 @@
   --shadows-md: 0px 4px 11px rgba(157, 157, 157, 0.21);
   --shadow-subtle: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  --shadow-blended-light: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   /*=====  End of Shadow  ======*/
 }

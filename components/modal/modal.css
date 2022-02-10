@@ -1,0 +1,32 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  font-family: var(--nunito);
+}
+
+.modal {
+  height: max-content;
+  width: 15rem;
+  padding: var(--spacing-sm);
+  box-shadow: var(--shadow-blended-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.title-div {
+  display: flex;
+}
+
+.cross {
+  margin-left: auto;
+  color: var(--black);
+}
+
+.modal-body {
+  margin: 1rem 0 0.8rem 0;
+}
+
+.modal-btns {
+  margin-left: auto;
+  margin-top: var(--spacing-xs);
+}

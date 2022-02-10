@@ -1,9 +1,20 @@
-.mg-s {
-  margin: 1rem;
+.mg-xs {
+  margin: var(--spacing-2xs);
 }
+/* xs- 0.5rem */
+
+.mg-s {
+  margin: var(--spacing-sm);
+}
+/* sm- 1rem */
 
 .mg-m {
-  margin: 2rem;
+  margin: var(--spacing-xl);
+}
+/* xl- 2rem */
+
+.mg-left {
+  margin-left: var(--spacing-2xs);
 }
 
 .pd-s {
@@ -35,6 +46,24 @@
 
 .marg-un {
   margin: unset;
+}
+
+/* colors */
+
+.color-gp {
+  background-color: var(--green-pastel);
+}
+
+.color-rp {
+  background-color: var(--red-pastel);
+}
+
+.color-yp {
+  background-color: var(--yellow-pastel);
+}
+
+.color-bp {
+  background-color: var(--blue-pastel);
 }
 
 @media (max-width: 768px) {
