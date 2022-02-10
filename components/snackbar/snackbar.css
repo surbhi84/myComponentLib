@@ -17,6 +17,7 @@ body {
   border-radius: 5px;
   background-color: var(--blue-pastel);
   z-index: 1;
+  box-shadow: var(--shadow-subtle);
 }
 
 .btn {
