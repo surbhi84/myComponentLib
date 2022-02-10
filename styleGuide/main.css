@@ -53,6 +53,7 @@
   --grey: grey;
   --gray: #454647;
   --gray-light: #a6a9b4;
+  --gray-lighter: rgb(219, 211, 211);
 
   --white: #fff;
   --white-dark: #f1f2f3;
@@ -151,7 +152,7 @@
 
   --spacing-none: 0rem;
   --spacing-4xs: 0.125rem; /* 2px */
-  --spacing-3xs: 0.25rem; /* 4px */
+  --spacing-3xs: 0.3rem; /* ~4px */
   --spacing-2xs: 0.5rem; /* 8px */
   --spacing-xs: 0.8rem;
   --spacing-sm: 1rem; /* 16px */
