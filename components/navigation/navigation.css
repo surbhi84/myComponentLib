@@ -30,6 +30,8 @@ body {
 .nav-link {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: var(--black);
 }
 
 .nav-icon {
