@@ -1,0 +1,74 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  font-family: var(--nunito);
+}
+
+.snackbar-center,
+.snackbar-bottom,
+.snackbar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-2xs);
+  min-width: 10rem;
+  max-width: 27rem;
+  padding: var(--spacing-2xs);
+  border-radius: 5px;
+  background-color: var(--blue-pastel);
+  z-index: 1;
+}
+
+.btn {
+  background-color: transparent;
+  color: var(--blue-pr);
+}
+
+.btn:hover {
+  color: var(--white);
+  border-radius: 4px;
+}
+
+.icon:hover {
+  color: var(--white);
+  border-radius: 50%;
+}
+
+.snackbar-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.snackbar-bottom {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.snackbar-left {
+  position: fixed;
+  top: 5%;
+}
+
+.bundle {
+  display: flex;
+  gap: var(--spacing-2xs);
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .snackbar-center,
+  .snackbar-bottom,
+  .snackbar-left {
+    font-size: var(--fs-xs);
+  }
+
+  /* snackleft will appear on top */
+  .snackbar-left {
+    top: 2%;
+    left: 0%;
+  }
+}
