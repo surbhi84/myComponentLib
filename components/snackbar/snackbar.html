@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="snackbar component" />
+
+    <link rel="stylesheet" href="/styleGuide/main.css" />
+
+    <link rel="stylesheet" href="/components/button/button.css" />
+    <link rel="stylesheet" href="./snackbar.css" />
+    <script defer src="./snackbar.js"></script>
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+    <script src="/prism/prism.js" defer></script>
+    <title>SnackBar</title>
+  </head>
+
+  <body>
+    <h3>Snackbar in the center</h3>
+    <button class="solid-btn btn-sm" id="show-btn1">Show</button>
+    <div class="snackbar-center">
+      Can't send photo. Retry in 5 seconds.
+      <div class="bundle">
+        <button class="btn solid-btn">Retry</button>
+        <span class="icon"><i class="fas fa-times"></i></span>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+<div class="snackbar-center">
+  Can't send photo. Retry in 5 seconds.
+  <div class="bundle">
+    <button class="btn solid-btn">Retry</button>
+    <span class="icon"><i class="fas fa-times"></i></span>
+  </div>
+</div>
+    </code></pre>
+
+    <h3>Snackbar in the left-top</h3>
+    <button class="solid-btn btn-sm" id="show-btn3">Show</button>
+    <div class="snackbar-left">
+      This item already has the label "travel". You can add a new label.
+      <div class="bundle">
+        <button class="btn solid-btn">Add new label</button>
+        <span class="icon"><i class="fas fa-times"></i></span>
+      </div>
+    </div>
+
+    <pre><code class="language-markup">
+<div class="snackbar-left">
+  This item already has the label "travel". You can add a new label.
+  <div class="bundle">
+    <button class="btn solid-btn">Add new label</button>
+    <span class="icon"><i class="fas fa-times"></i></span>
+  </div>
+</div>
+</code></pre>
+
+    <h3>SnackBar in the bottom</h3>
+    <button class="solid-btn btn-sm" id="show-btn2">Show</button>
+
+    <div class="snackbar-bottom">
+      Your photo was archived.
+      <div class="bundle">
+        <button class="btn solid-btn">UNDO</button>
+        <span class="icon"><i class="fas fa-times"></i></span>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+<div class="snackbar-bottom">
+Your photo was archived.
+<div class="bundle">
+<button class="btn solid-btn">UNDO</button>
+<span class="icon"><i class="fas fa-times"></i></span>
+</div>
+</div>      
+</code></pre>
+  </body>
+</html>
