@@ -66,6 +66,9 @@
   background-color: var(--blue-pastel);
 }
 
+.text-col-blue {
+  color: var(--blue-pr);
+}
 @media (max-width: 768px) {
   body {
     display: flex;
