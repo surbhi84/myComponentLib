@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="grid component" />
+
+    <link rel="stylesheet" href="/styleGuide/main.css" />
+    <link rel="stylesheet" href="/styleGuide/util.css" />
+
+    <link rel="stylesheet" href="./grid.css" />
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+    <script src="/prism/prism.js" defer></script>
+    <title>Grid</title>
+  </head>
+  <body>
+    <h3 class="text-col-blue">Equal width grid columns</h3>
+
+    <h3>Grid with 2 columns</h3>
+    <div class="showcase">
+      <div class="grid-col2">
+        <div class="col color-bp">Grid column one</div>
+        <div class="col color-bp">Grid column two</div>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+    <div class="grid-col2">
+      <div class="col color-bp ">Grid column one</div>
+      <div class="col color-bp">Grid column two</div>
+    </div>
+    </code></pre>
+
+    <h3>Grid with 3 columns</h3>
+    <div class="showcase">
+      <div class="grid-col3">
+        <div class="col color-rp">Grid column one</div>
+        <div class="col color-rp">Grid column two</div>
+        <div class="col color-rp">Grid column three</div>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+    <div class="grid-col3">
+      <div class="col color-rp">Grid column one</div>
+      <div class="col color-rp">Grid column two</div>
+      <div class="col color-rp">Grid column three</div>
+    </div>         
+    </code></pre>
+
+    <h3>Grid with 4 columns</h3>
+    <div class="showcase">
+      <div class="grid-col4">
+        <div class="col color-bp">Grid column one</div>
+        <div class="col color-bp">Grid column two</div>
+        <div class="col color-bp">Grid column three</div>
+        <div class="col color-bp">Grid column four</div>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+   <div class="grid-col4">
+      <div class="col color-bp">Grid column one</div>
+      <div class="col color-bp">Grid column two</div>
+      <div class="col color-bp">Grid column three</div>
+      <div class="col color-bp">Grid column four</div>
+   </div>
+    </code></pre>
+
+    <h3 class="text-col-blue">Vertical alignment for grids</h3>
+
+    <h3>center align</h3>
+    <div class="showcase-fix">
+      <div class="center-align">
+        <div class="grid-col3">
+          <div class="col color-gp">Grid column one</div>
+          <div class="col color-gp">Grid column two</div>
+          <div class="col color-gp">Grid column three</div>
+        </div>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+    <div class="center-align">
+      <div class="grid-col3">
+        <div class="col color-gp">Grid column one</div>
+        <div class="col color-gp">Grid column two</div>
+        <div class="col color-gp">Grid column three</div>
+      </div>
+    </div>
+    </code></pre>
+
+    <h3>Bottom align</h3>
+    <div class="showcase-fix">
+      <div class="bottom-align">
+        <div class="grid-col2">
+          <div class="col color-rp">Grid column one</div>
+          <div class="col color-rp">Grid column two</div>
+        </div>
+      </div>
+    </div>
+    <pre><code class="language-markup">
+    <div class="bottom-align">
+      <div class="grid-col2">
+        <div class="col color-rp">Grid column one</div>
+        <div class="col color-rp">Grid column two</div>
+      </div>
+    </div>   
+    </code></pre>
+  </body>
+</html>
