@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  font-family: var(--nunito);
+  margin: unset;
+  /* height: 100vh;s */
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-sm);
+}
+
+.main-section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-left: 0%;
+  width: 15rem;
+  /* background: #000046; fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
+  color: transparent;
+}
+
+.logo0 {
+  display: inline-block;
+}
+.logo1 {
+  display: inline-block;
+  font-family: var(--nunito);
+}
+
+.main-btn {
+  font-size: var(--fs-l);
+  padding: var(--spacing-l) var(--spacing-3xl);
+  border: 2px solid var(--blue-pr);
+  background-color: var(--blue-pastel);
+  color: var(--blue-pr);
+  border-radius: 1rem;
+
+  background-image: url(/imgs.jpg);
+  background-size: cover;
+
+  /* box-shadow: var(--shadow-subtle); */
+  color: white;
+  /* background: #000046;
+  background: -webkit-linear-gradient(to left, #1cb5e0, #000046);
+  background: linear-gradient(to left, #1cb5e0, #000046); */
+}
+
+.main-btn:hover {
+  transform: scale(1.05);
+}

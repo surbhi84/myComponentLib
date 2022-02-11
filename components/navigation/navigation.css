@@ -1,4 +1,4 @@
-body {
+.body {
   font-family: var(--nunito);
   margin: unset;
   display: flex;
