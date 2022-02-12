@@ -12,6 +12,7 @@
 }
 
 .curved-edge {
+  height: 1.8rem;
   border-radius: 0.2rem;
   border: 0.15rem solid var(--green-light);
 }

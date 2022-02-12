@@ -4,3 +4,7 @@
 @import url(/home-page/homepage.css);
 @import url(/landing-page/halloUi.css);
 @import url(/landing-page/footer.css);
+
+:root {
+  font-size: 1rem;
+}
