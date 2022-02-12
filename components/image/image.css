@@ -7,11 +7,12 @@ body {
   width: 100%;
 }
 .show-case {
-  height: 50%;
-  width: 40%;
+  height: auto;
+  width: 30%;
   margin: var(--spacing-xl);
 }
 
 .circle {
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
 }

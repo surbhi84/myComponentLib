@@ -2,10 +2,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
+@import url(/footer.css);
+
 body {
   font-family: var(--nunito);
   margin: unset;
-  /* height: 100vh;s */
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: minmax(10%, max-content) 1fr minmax(10%, max-content);
+  min-height: 100vh;
 }
 
 .head {
@@ -16,56 +24,75 @@ body {
 }
 
 .main-section {
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo {
-  margin-left: 0%;
-  width: 15rem;
-  /* background: #000046; fallback for old browsers */
+.logo-anchor {
+  /* background: #000046;
   background: -webkit-linear-gradient(
     to right,
     #1cb5e0,
     #000046
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+  );  */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
     to right,
     #1cb5e0,
     #000046
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );  */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  color: transparent;
+}
+
+.logo {
+  text-decoration: none;
+  margin-left: 0%;
+  width: 15rem;
   background-clip: text;
   color: transparent;
 }
 
 .logo0 {
   display: inline-block;
+  color: #1bb3de;
+}
+.logo05 {
+  display: inline-block;
+  color: var(--blue-pr);
 }
 .logo1 {
   display: inline-block;
+  color: #000836;
   font-family: var(--nunito);
 }
 
-.main-btn {
-  font-size: var(--fs-l);
-  padding: var(--spacing-l) var(--spacing-3xl);
-  border: 2px solid var(--blue-pr);
-  background-color: var(--blue-pastel);
-  color: var(--blue-pr);
-  border-radius: 1rem;
-
-  background-image: url(/imgs.jpg);
-  background-size: cover;
-
-  /* box-shadow: var(--shadow-subtle); */
-  color: white;
-  /* background: #000046;
-  background: -webkit-linear-gradient(to left, #1cb5e0, #000046);
-  background: linear-gradient(to left, #1cb5e0, #000046); */
+.welcome-text {
+  width: 20rem;
 }
 
-.main-btn:hover {
+.column-2 > a {
+  text-decoration: none;
+}
+.main-btn {
+  font-size: var(--fs-l);
+  border: 2px solid var(--blue-pr);
+  border-radius: 1rem;
+  padding: var(--spacing-l) var(--spacing-xl);
+  margin: var(--spacing-md) 0;
+  background-image: url(media/imgs.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.main-btn:hover,
+.laptop-svg:hover {
   transform: scale(1.05);
+}
+
+.laptop-svg:hover {
+  transition: transform 0.6s ease-in-out;
 }

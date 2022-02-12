@@ -3,6 +3,10 @@
 @import url(/components/navigation/navigation.css);
 @import url(/components/text\ Utilities/textUtil.css);
 
+body {
+  font-family: var(--nunito);
+}
+
 .mg-xs {
   margin: var(--spacing-2xs);
 }
@@ -30,6 +34,10 @@
   padding: 2rem;
 }
 
+.pd-lg {
+  padding: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -47,6 +55,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.gap-md {
+  gap: var(--spacing-md);
+}
+
+.gap-xl {
+  gap: var(--spacing-xl);
 }
 
 .marg-un {
@@ -75,9 +91,22 @@
   background-color: var(--blue-pastel);
 }
 
+.color-bl {
+  background-color: var(--blue-light);
+}
+.color-skyblu {
+  /* background-color: #97e7ff94; */
+  /* background-color: #1bb4de4d; */
+}
+
 .text-col-blue {
   color: var(--blue-pr);
 }
+
+.text-col-navy {
+  color: #04195b;
+}
+
 /* @media (max-width: 768px) {
   body {
     display: flex;

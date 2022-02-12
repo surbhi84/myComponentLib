@@ -1,7 +1,6 @@
 body {
-  font-family: var(--nunito);
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .showcase-div {

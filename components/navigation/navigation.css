@@ -1,9 +1,8 @@
 .body {
-  font-family: var(--nunito);
   margin: unset;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 .showcase {

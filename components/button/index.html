@@ -19,58 +19,98 @@
     <title>Button</title>
   </head>
   <body>
-    <h3>Basic buttons without border</h3>
-    <div class="showcase-div">
+    <header class="head">
+      <div class="logo">
+        <h1 class="logo0 marg-un big-text">ha</h1>
+        <h1 class="logo0 marg-un big-text">LLo</h1>
+        <h1 class="logo05 marg-un big-text">!</h1>
+        <h1 class="logo1 marg-un">Ui</h1>
+      </div>
+      <li class="search">
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <button class="search-btn">
+          <img
+            src="/home-page/media/search.svg"
+            alt="search icon"
+            class="search-icon"
+          />
+        </button>
+      </li>
+    </header>
+    <main class="grid">
+      <div class="col-1">
+        <a href="/components/avatar" class="comp-name"> Avatar</a>
+        <a href="/components/badges" class="comp-name">Badge</a>
+        <a href="/components/alert" class="comp-name">Alert</a>
+        <a href="/components/button" class="comp-name">Button</a>
+        <a href="/components/cards" class="comp-name">Cards</a>
+        <a href="/components/image/" class="comp-name">Image</a>
+        <a href="/components/input/" class="comp-name">Input</a>
+        <a href="/components/text Utilities/" class="comp-name"
+          >Text Utilities</a
+        >
+        <a href="/components/list/" class="comp-name">List</a>
+        <a href="/components/navigation/" class="comp-name">Navigation</a>
+        <a href="/components/modal/" class="comp-name">Modal</a>
+        <a href="/components/snackbar/" class="comp-name">Snackbar</a>
+        <a href="/components/rating/" class="comp-name">Rating</a>
+        <a href="/components/grid/" class="comp-name">Grids</a>
+      </div>
+
+      <div class="col-2">
+        <h1>Buttons</h1>
+        <h3>Basic buttons without border</h3>
+        <div class="showcase-div">
+          <button class="solid-btn clr-bl btn-md">Primary</button>
+          <button class="solid-btn clr-gl btn-md">Secondary</button>
+          <button class="solid-btn clr-rl btn-md">Danger</button>
+        </div>
+        <pre><code class="language-markup">
       <button class="solid-btn clr-bl btn-md">Primary</button>
       <button class="solid-btn clr-gl btn-md">Secondary</button>
       <button class="solid-btn clr-rl btn-md">Danger</button>
-    </div>
-    <pre><code class="language-markup">
-      <button class="solid-btn clr-bl btn-md">Primary</button>
-      <button class="solid-btn clr-gl btn-md">Secondary</button>
-      <button class="solid-btn clr-rl btn-md">Danger</button>
     </code></pre>
 
-    <h3>Buttons with different sizes</h3>
-    <div class="showcase-div">
-      <button class="solid-btn clr-bl btn-sm">Primary</button>
-      <button class="solid-btn clr-gl btn-md">Secondary</button>
-      <button class="solid-btn clr-rl btn-lg">Danger</button>
-    </div>
-    <pre><code class="language-markup">
+        <h3>Buttons with different sizes</h3>
+        <div class="showcase-div">
+          <button class="solid-btn clr-bl btn-sm">Primary</button>
+          <button class="solid-btn clr-gl btn-md">Secondary</button>
+          <button class="solid-btn clr-rl btn-lg">Danger</button>
+        </div>
+        <pre><code class="language-markup">
       <button class="solid-btn clr-bl btn-sm">Primary</button>
       <button class="solid-btn clr-gl btn-md">Secondary</button>
       <button class="solid-btn clr-rl btn-lg">Danger</button>
     </code></pre>
 
-    <h3>outlined buttons</h3>
-    <div class="showcase-div">
-      <button class="outline-btn outline-blue btn-md">Primary</button>
-      <button class="outline-btn outline-green btn-md">Secondary</button>
-      <button class="outline-btn outline-red btn-md">Danger</button>
-    </div>
-    <pre><code class="language-markup">
+        <h3>outlined buttons</h3>
+        <div class="showcase-div">
+          <button class="outline-btn outline-blue btn-md">Primary</button>
+          <button class="outline-btn outline-green btn-md">Secondary</button>
+          <button class="outline-btn outline-red btn-md">Danger</button>
+        </div>
+        <pre><code class="language-markup">
       <button class="outline-btn outline-blue btn-md">Primary</button>
       <button class="outline-btn outline-green btn-md">Secondary</button>
       <button class="outline-btn outline-red btn-md">Danger</button>
     </code></pre>
 
-    <h3>Icon buttons</h3>
-    <div class="showcase-div">
-      <button class="icon-btn clr-bl btn-md">
-        Add to cart<img src="./Icons/cart.svg" alt="cart icon" />
-      </button>
-      <button class="icon-btn clr-gl btn-md">
-        Wishlist<img src="./Icons/heart.svg" alt="heart icon" />
-      </button>
-      <button class="icon-btn clr-bl btn-md">
-        Wishlist<img src="./Icons/heartFilled.svg" alt="heart icon" />
-      </button>
-      <button class="icon-btn clr-rl btn-md">
-        Delete<img src="./Icons/deleteFilled.svg" alt="delete icon" />
-      </button>
-    </div>
-    <pre><code class="language-markup">
+        <h3>Icon buttons</h3>
+        <div class="showcase-div">
+          <button class="icon-btn clr-bl btn-md">
+            Add to cart<img src="./Icons/cart.svg" alt="cart icon" />
+          </button>
+          <button class="icon-btn clr-gl btn-md">
+            Wishlist<img src="./Icons/heart.svg" alt="heart icon" />
+          </button>
+          <button class="icon-btn clr-bl btn-md">
+            Wishlist<img src="./Icons/heartFilled.svg" alt="heart icon" />
+          </button>
+          <button class="icon-btn clr-rl btn-md">
+            Delete<img src="./Icons/deleteFilled.svg" alt="delete icon" />
+          </button>
+        </div>
+        <pre><code class="language-markup">
       <button class="icon-btn clr-bl btn-md">
         Add to cart<img src="./Icons/cart.svg" alt="cart icon" />
       </button>
@@ -85,36 +125,36 @@
       </button>
     </code></pre>
 
-    <h3>Buttons with link</h3>
-    <div class="showcase-div">
-      <a href="https://www.google.com/">
-        <button class="solid-btn clr-bl btn-md">Google</button></a
-      >
-      <a href="https://neog.camp/level-one">
-        <button class="solid-btn clr-gl btn-md">Neog</button></a
-      >
-    </div>
-    <pre><code class="language-markup">
+        <h3>Buttons with link</h3>
+        <div class="showcase-div">
+          <a href="https://www.google.com/">
+            <button class="solid-btn clr-bl btn-md">Google</button></a
+          >
+          <a href="https://neog.camp/level-one">
+            <button class="solid-btn clr-gl btn-md">Neog</button></a
+          >
+        </div>
+        <pre><code class="language-markup">
       <a href="https://www.google.com/" target="blank">
       <button class="solid-btn clr-bl btn-md">Google</button></a>
       <a href="https://neog.camp/level-one" target="blank">
       <button class="solid-btn clr-gl btn-md">Neog</button></a>
     </code></pre>
 
-    <h3>Floating action buttons</h3>
-    <div class="showcase-div">
-      <button class="float-btn flex-center">
-        <img src="./Icons/add.svg" class="float-icon" alt="add icon" />
-      </button>
-      <button class="float-btn flex-center">
-        <img
-          src="./Icons/heartFilled.svg"
-          class="float-icon"
-          alt="heart icon"
-        />
-      </button>
-    </div>
-    <pre><code class="language-markup">
+        <h3>Floating action buttons</h3>
+        <div class="showcase-div">
+          <button class="float-btn flex-center">
+            <img src="./Icons/add.svg" class="float-icon" alt="add icon" />
+          </button>
+          <button class="float-btn flex-center">
+            <img
+              src="./Icons/heartFilled.svg"
+              class="float-icon"
+              alt="heart icon"
+            />
+          </button>
+        </div>
+        <pre><code class="language-markup">
       <button class="float-btn flex-center">
         <img src="./Icons/add.svg" class="float-icon" alt="add icon">
       </button>
@@ -122,5 +162,7 @@
         <img src="./Icons/heartFilled.svg" class="float-icon" alt="heart icon" />
       </button>
     </code></pre>
+      </div>
+    </main>
   </body>
 </html>

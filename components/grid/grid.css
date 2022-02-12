@@ -1,9 +1,3 @@
-body {
-  font-family: var(--nunito);
-  display: grid;
-  justify-items: center;
-}
-
 .showcase,
 .showcase-fix {
   display: grid;
@@ -16,7 +10,6 @@ body {
 .showcase-fix {
   height: 10rem;
 }
-
 .col {
   display: grid;
   align-items: center;
@@ -28,7 +21,7 @@ body {
 .grid-col2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-self: end;
+  /* align-self: end; */
 }
 
 .grid-col3 {
@@ -47,4 +40,9 @@ body {
 
 .bottom-align {
   align-self: end;
+}
+
+.center-grid {
+  align-items: center;
+  justify-content: center;
 }
