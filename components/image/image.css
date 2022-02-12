@@ -1,15 +1,6 @@
-body {
-  font-family: var(--nunito);
-}
-
 .responsive-img {
   height: 100%;
   width: 100%;
-}
-.show-case {
-  height: auto;
-  width: 30%;
-  margin: var(--spacing-xl);
 }
 
 .circle {

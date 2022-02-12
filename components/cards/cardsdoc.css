@@ -1,0 +1,14 @@
+.showcase-div {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-xl);
+  gap: var(--spacing-xl);
+}
+
+/* @media (max-width: 768px) {
+    .showcase-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  } */

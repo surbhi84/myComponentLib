@@ -1,0 +1,4 @@
+.show {
+  margin: var(--spacing-l);
+  position: relative;
+}

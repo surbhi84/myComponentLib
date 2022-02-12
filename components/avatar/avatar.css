@@ -1,21 +1,3 @@
-body {
-  /* display: flex;
-  flex-direction: column; */
-}
-
-.showcase-div {
-  padding: var(--spacing-lg);
-  max-width: max-content;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  flex-grow: 0;
-  flex-wrap: wrap;
-  padding: var(--spacing-l);
-  gap: var(--spacing-l);
-  justify-content: space-around;
-}
-
 .curved-avatar {
   border-radius: 1.5rem;
   position: relative;
@@ -145,12 +127,4 @@ body {
 .ob-posi-ci {
   bottom: 12%;
   right: 10%;
-}
-
-@media (max-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }

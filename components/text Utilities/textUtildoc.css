@@ -1,0 +1,21 @@
+.text-show {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-l);
+}
+
+.text-container {
+  border: 2px solid var(--blue-pr);
+  border-radius: 0.3rem;
+  width: 50%;
+  margin: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  .text-show {
+    align-items: center;
+  }
+  .text-container {
+    width: 80%;
+  }
+}

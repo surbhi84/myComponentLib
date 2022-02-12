@@ -1,11 +1,5 @@
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
-.parent-div {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-xs);
-}
-
 .alert {
   display: flex;
   flex-direction: row;
@@ -14,22 +8,6 @@
   max-width: 30rem;
   padding: var(--spacing-xs);
   border-radius: 3px;
-}
-
-.color-gp {
-  background-color: var(--green-pastel);
-}
-
-.color-rp {
-  background-color: var(--red-pastel);
-}
-
-.color-yp {
-  background-color: var(--yellow-pastel);
-}
-
-.color-bp {
-  background-color: var(--blue-pastel);
 }
 
 .notify {
