@@ -37,6 +37,8 @@
 =============================================*/
 
 :root {
+  font-size: 1.5rem;
+
   /* Brand Colors */
 
   --primary-col: #5ece7b;

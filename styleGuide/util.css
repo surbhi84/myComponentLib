@@ -1,5 +1,5 @@
 @import url(/home-page/homepage.css);
-@import url(/halloUi.css);
+@import url(/landing-page/halloUi.css);
 @import url(/components/navigation/navigation.css);
 @import url(/components/text\ Utilities/textUtil.css);
 
@@ -107,10 +107,10 @@ body {
   color: #04195b;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-} */
+}
