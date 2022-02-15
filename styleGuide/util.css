@@ -63,6 +63,18 @@ body {
   justify-content: center;
 }
 
+.flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-col-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .gap-md {
   gap: var(--spacing-md);
 }

@@ -11,10 +11,10 @@
   right: 1.2rem;
   border-radius: 100%;
   color: var(--white-dull);
-  height: 1rem;
-  width: 1rem;
+  height: 1.2rem;
+  width: 1.2rem;
   text-align: center;
-  line-height: 1rem;
+  line-height: 1.2rem;
   font-size: var(--fs-xs);
   font-weight: bold;
 }
