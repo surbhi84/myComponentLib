@@ -1,10 +1,6 @@
 @import url(/components/navigation/navigation.css);
 @import url(/components/text\ Utilities/textUtil.css);
 
-body {
-  font-family: var(--nunito);
-}
-
 .mg-xs {
   margin: var(--spacing-2xs);
 }
@@ -73,6 +69,10 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.gap-sm {
+  gap: var(--spacing-2xs);
 }
 
 .gap-md {

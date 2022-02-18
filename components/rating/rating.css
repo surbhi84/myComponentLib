@@ -12,7 +12,7 @@
   display: none;
 }
 
-label {
+.star-label {
   cursor: pointer;
   font-size: 2rem;
   color: var(--blue-pastel);

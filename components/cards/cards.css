@@ -30,6 +30,7 @@
   position: absolute;
   padding: 0 0.2rem;
   top: var(--spacing-sm);
+  left: 0;
 }
 
 .cross {
