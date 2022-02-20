@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.text-dec-none {
+  text-decoration: none;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;

@@ -15,13 +15,12 @@
   text-decoration: none;
   padding: var(--spacing-sm);
   color: #04195b;
-  /* padding: var(--spacing-2xs); */
 }
 
 .comp-name:hover {
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
-  background-color: var(--blue-pastel);
+  background-color: var(--blue-bg);
   box-shadow: var(--shadow-subtle);
 }
 
