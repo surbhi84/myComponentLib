@@ -17,7 +17,7 @@
     <a href="https://github.com/surbhi84/myComponentLib"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/surbhi84/myComponentLib">Open application</a>
+    <a href="https://halloui.netlify.app/">Open application</a>
     <br />
     <br />
     
