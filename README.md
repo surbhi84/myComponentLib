@@ -52,7 +52,7 @@
 
 ## About The Project
 
-![HalloUi Home-Page](https:<img width="959" alt="2022-02-21" src="https://user-images.githubusercontent.com/56334321/154848075-bcf97580-a21c-450e-80a6-34427d6e8634.png>)
+<img width="959" alt="2022-02-21" src="https://user-images.githubusercontent.com/56334321/154848075-bcf97580-a21c-450e-80a6-34427d6e8634.png>
 
 HalloUi gets its name from the german word hallo which means Hello. HalloUi welcomes you to the ease which halloUi provides you to develop smooth user interfaces. Here you will get predesigned layouts of basic components that you need to build your website. HalloUi components can be customised as well you can add colors of your choice and choose different sizes of a single component.
 
@@ -99,13 +99,14 @@ and voila you have your own Component Library app ready!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-  
-![Example screenshot]  (https:<img width="959" alt="2022-02-21 (1)" src="https://user-images.githubusercontent.com/56334321/154860732-c17b047e-53d7-4551-8776-e4daad034ae4.png">)
-
+ 
 
 ## Usage
 
 You can use this project to create more websites, HalloUi offers you components that are a need for every modern website.
+                                
+<img width="959" alt="2022-02-21 (1)" src="https://user-images.githubusercontent.com/56334321/154860732-c17b047e-53d7-4551-8776-e4daad034ae4.png">
+                                
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
