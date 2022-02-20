@@ -4,6 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/surbhi84/myComponentLib">
+<img width="148" alt="2022-02-20 (9)" src="https://user-images.githubusercontent.com/56334321/154857116-3994e32c-bcde-43fd-be55-ec9d0900531f.png">
 
   </a>
 
