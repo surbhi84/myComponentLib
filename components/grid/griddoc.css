@@ -1,0 +1,12 @@
+.showcase,
+.showcase-fix {
+  display: grid;
+  border: 0.1rem solid var(--gray-lighter);
+  padding: var(--spacing-l);
+  margin: var(--spacing-l);
+  width: 40rem;
+}
+
+.showcase-fix {
+  height: 10rem;
+}

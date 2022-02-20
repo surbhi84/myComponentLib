@@ -31,13 +31,3 @@ function pop(snack) {
   snack.style.visibility = "visible";
   setTimeout(() => (snack.style.visibility = "hidden"), 2000);
 }
-
-// retry.addEventListener("click", () => {
-//   show.textContent = `Retrying...`;
-// });
-
-// cancelIcon.addEventListener("click", () => {
-//   show.style.display = "none";
-// });
-
-// show.scrollIntoView();

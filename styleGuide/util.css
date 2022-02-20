@@ -1,3 +1,6 @@
+@import url(/components/navigation/navigation.css);
+@import url(/components/text\ Utilities/textUtil.css);
+
 .mg-xs {
   margin: var(--spacing-2xs);
 }
@@ -17,6 +20,10 @@
   margin-left: var(--spacing-2xs);
 }
 
+.pd-xs {
+  padding: 0.5rem;
+}
+
 .pd-s {
   padding: 1rem;
 }
@@ -25,8 +32,24 @@
   padding: 2rem;
 }
 
+.pd-lg {
+  padding: 3rem;
+}
+
+.pad-topleft {
+  padding-left: var(--spacing-2xs);
+  padding-top: var(--spacing-3xs);
+}
+.pad-left {
+  padding-left: var(--spacing-l);
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-dec-none {
+  text-decoration: none;
 }
 
 .flex-col {
@@ -44,8 +67,36 @@
   justify-content: center;
 }
 
+.flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-col-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.gap-sm {
+  gap: var(--spacing-2xs);
+}
+
+.gap-md {
+  gap: var(--spacing-md);
+}
+
+.gap-xl {
+  gap: var(--spacing-xl);
+}
+
 .marg-un {
   margin: unset;
+}
+
+.marg-un-left {
+  margin-left: unset;
 }
 
 /* colors */
@@ -66,9 +117,18 @@
   background-color: var(--blue-pastel);
 }
 
+.color-bl {
+  background-color: var(--blue-light);
+}
+
 .text-col-blue {
   color: var(--blue-pr);
 }
+
+.text-col-navy {
+  color: #04195b;
+}
+
 @media (max-width: 768px) {
   body {
     display: flex;

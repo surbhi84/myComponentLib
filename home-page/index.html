@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Surbhi Kukreti" />
-    <meta name="description" content="image component" />
+    <meta nme="description" content="component library" />
 
-    <link rel="stylesheet" href="./image.css" />
-    <link rel="stylesheet" href="./imagedoc.css" />
+    <link rel="stylesheet" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" href="/components/text Utilities/textUtil.css" />
 
     <link rel="stylesheet" href="/import.css" />
 
     <script src="/prism/prism.js" defer></script>
-    <title>Image-HalloUi</title>
+
+    <title>HalloUi-Home</title>
   </head>
   <body>
     <header class="head">
       <div class="logo">
-        <a href="/home-page/" class="logo-anchor">
+        <a href="/index.html" class="logo-anchor">
           <h1 class="logo0 marg-un big-text">ha</h1>
           <h1 class="logo0 marg-un big-text">LLo</h1>
           <h1 class="logo05 marg-un big-text">!</h1>
@@ -28,11 +29,7 @@
       <li class="search">
         <input type="text" placeholder="Search..." class="search-bar" />
         <button class="search-btn">
-          <img
-            src="/home-page/media/search.svg"
-            alt="search icon"
-            class="search-icon"
-          />
+          <img src="./media/search.svg" alt="search icon" class="search-icon" />
         </button>
       </li>
     </header>
@@ -57,31 +54,37 @@
         <a href="/components/grid/" class="comp-name">Grids</a>
       </div>
 
-      <div class="col-2">
-        <h1>Responsive images</h1>
+      <div class="col-2 text-col-navy">
+        <h1 class="marg-un">What is HalloUi?</h1>
+        <p class="marg-un-left">
+          Well the answer to this question is easy, it is a Component Library
+          and provides you a solution to all your css troubles. Here you will
+          get predesigned layouts of basic components that you need to build
+          your website. wondering about customisation? we got you! you can add
+          colors of your choice and choose different sizes of a single
+          component.
+        </p>
 
-        <div class="show-case">
-          <img
-            src="./media/image2.jpg"
-            alt="image can't be
-      loaded"
-            class="responsive-img"
-          />
-        </div>
+        <h1 class="marg-un">How to use HalloUi?</h1>
+        <p class="marg-un-left">
+          Easy to install and even easier to use, HalloUi understands that your
+          time is precious that's why the installation is kept super simple. All
+          you need to do is put the below code in your html file and use the
+          respective classes of the components that you want to use.
+        </p>
         <pre><code class="language-markup">
-      <img src="./media/image2.jpg" alt="beach" class="responsive-img" />
-    </code></pre>
 
-        <div class="show-case">
-          <img
-            src="./media/image1.jpg"
-            alt="sunset"
-            class="responsive-img circle"
-          />
-        </div>
-        <pre><code class="language-markup">
-      <img src="./media/image1.jpg" alt="sunset" class="responsive-img circle" />
-    </code></pre>
+   <link rel="stylesheet" href="https://halloui.netlify.app/halloUi-share.css">
+
+        </code></pre>
+
+        <p class="marg-un-left">
+          Another way to use HalloUi is to import the href link provided above
+          into your css directly. You can browse components from the sidebar or
+          you can search your components in the search bar at the top right
+          corner, so here i leave you with all the knowledge that you'll need to
+          use HalloUi!
+        </p>
       </div>
     </main>
     <footer class="hui-footer">
@@ -104,7 +107,7 @@
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
-      </ul>
+     
 
       <div id="legacyText">© 2022 | Surbhi Kukreti</div>
     </footer>

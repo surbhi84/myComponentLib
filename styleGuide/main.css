@@ -37,10 +37,9 @@
 =============================================*/
 
 :root {
-  /* Brand Colors */
+  /* font-size: 1.5rem; */
 
-  --primary-col: #5ece7b;
-  --primary-col-light: #9ee2b0;
+  /* Brand Colors */
 
   --dark: #1d1f22;
   --dark-light: #737680;
@@ -70,10 +69,13 @@
   --red-light: #fc484e;
   --red-pastel: #fed7d7;
 
+  --sky-blue: #1bb3de;
   --blue: #0468db;
   --blue-light: #26d4ff;
   --blue-pr: #0f79af;
   --blue-pastel: #cce5ff;
+
+  --blue-bg: #b6e0fa67;
 
   --yellow-pastel: #fff3cd;
 

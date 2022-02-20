@@ -7,28 +7,68 @@
     <meta name="author" content="Surbhi Kukreti" />
     <meta name="description" content="snackbar component" />
 
-    <link rel="stylesheet" href="/styleGuide/main.css" />
-
     <link rel="stylesheet" href="/components/button/button.css" />
     <link rel="stylesheet" href="./snackbar.css" />
-    <script defer src="./snackbar.js"></script>
+    <link rel="stylesheet" href="/import.css" />
 
-    <link rel="stylesheet" href="/prism/prism.css" />
+    <script defer src="./snackbar.js"></script>
     <script src="/prism/prism.js" defer></script>
-    <title>SnackBar</title>
+    <title>Snackbar-HalloUi</title>
   </head>
 
   <body>
-    <h3>Snackbar in the center</h3>
-    <button class="solid-btn btn-sm" id="show-btn1">Show</button>
-    <div class="snackbar-center">
-      Can't send photo. Retry in 5 seconds.
-      <div class="bundle">
-        <button class="btn solid-btn">Retry</button>
-        <span class="icon"><i class="fas fa-times"></i></span>
+    <header class="head">
+      <div class="logo">
+        <a href="/home-page/" class="logo-anchor">
+          <h1 class="logo0 marg-un big-text">ha</h1>
+          <h1 class="logo0 marg-un big-text">LLo</h1>
+          <h1 class="logo05 marg-un big-text">!</h1>
+          <h1 class="logo1 marg-un">Ui</h1>
+        </a>
       </div>
-    </div>
-    <pre><code class="language-markup">
+      <li class="search">
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <button class="search-btn">
+          <img
+            src="/home-page/media/search.svg"
+            alt="search icon"
+            class="search-icon"
+          />
+        </button>
+      </li>
+    </header>
+    <main class="grid">
+      <div class="col-1">
+        <a href="/components/avatar" class="comp-name"> Avatar</a>
+        <a href="/components/badges" class="comp-name">Badge</a>
+        <a href="/components/alert" class="comp-name">Alert</a>
+        <a href="/components/button" class="comp-name">Button</a>
+        <a href="/components/cards" class="comp-name">Cards</a>
+        <a href="/components/image/" class="comp-name">Image</a>
+        <a href="/components/input/" class="comp-name">Input</a>
+        <a href="/components/text Utilities/" class="comp-name"
+          >Text Utilities</a
+        >
+        <a href="/components/list/" class="comp-name">List</a>
+        <a href="/components/navigation/" class="comp-name">Navigation</a>
+        <a href="/components/modal/" class="comp-name">Modal</a>
+        <a href="/components/snackbar/" class="comp-name">Snackbar</a>
+        <a href="/components/rating/" class="comp-name">Rating</a>
+        <a href="/components/grid/" class="comp-name">Grids</a>
+      </div>
+
+      <div class="col-2">
+        <h1>Snackbar</h1>
+        <h2>Snackbar in the center</h2>
+        <button class="solid-btn btn-sm" id="show-btn1">Show</button>
+        <div class="snackbar-center">
+          Can't send photo. Retry in 5 seconds.
+          <div class="bundle">
+            <button class="btn solid-btn">Retry</button>
+            <span class="icon"><i class="fas fa-times"></i></span>
+          </div>
+        </div>
+        <pre><code class="language-markup">
 <div class="snackbar-center">
   Can't send photo. Retry in 5 seconds.
   <div class="bundle">
@@ -38,17 +78,17 @@
 </div>
     </code></pre>
 
-    <h3>Snackbar in the left-top</h3>
-    <button class="solid-btn btn-sm" id="show-btn3">Show</button>
-    <div class="snackbar-left">
-      This item already has the label "travel". You can add a new label.
-      <div class="bundle">
-        <button class="btn solid-btn">Add new label</button>
-        <span class="icon"><i class="fas fa-times"></i></span>
-      </div>
-    </div>
+        <h2>Snackbar in the left-top</h2>
+        <button class="solid-btn btn-sm" id="show-btn3">Show</button>
+        <div class="snackbar-left">
+          This item already has the label "travel". You can add a new label.
+          <div class="bundle">
+            <button class="btn solid-btn">Add new label</button>
+            <span class="icon"><i class="fas fa-times"></i></span>
+          </div>
+        </div>
 
-    <pre><code class="language-markup">
+        <pre><code class="language-markup">
 <div class="snackbar-left">
   This item already has the label "travel". You can add a new label.
   <div class="bundle">
@@ -58,17 +98,17 @@
 </div>
 </code></pre>
 
-    <h3>SnackBar in the bottom</h3>
-    <button class="solid-btn btn-sm" id="show-btn2">Show</button>
+        <h2>SnackBar in the bottom</h2>
+        <button class="solid-btn btn-sm" id="show-btn2">Show</button>
 
-    <div class="snackbar-bottom">
-      Your photo was archived.
-      <div class="bundle">
-        <button class="btn solid-btn">UNDO</button>
-        <span class="icon"><i class="fas fa-times"></i></span>
-      </div>
-    </div>
-    <pre><code class="language-markup">
+        <div class="snackbar-bottom">
+          Your photo was archived.
+          <div class="bundle">
+            <button class="btn solid-btn">UNDO</button>
+            <span class="icon"><i class="fas fa-times"></i></span>
+          </div>
+        </div>
+        <pre><code class="language-markup">
 <div class="snackbar-bottom">
 Your photo was archived.
 <div class="bundle">
@@ -77,5 +117,31 @@ Your photo was archived.
 </div>
 </div>      
 </code></pre>
+      </div>
+    </main>
+    <footer class="hui-footer">
+      <ul class="hui-footer-links">
+        <li class="hui-footer-link">
+          <a href="https://github.com/Surbhi84" class="hui-footer-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="hui-footer-link">
+          <a href="https://medium.com/@subuhikukreti" class="hui-footer-icon">
+            <i class="fab fa-medium-m"></i>
+          </a>
+        </li>
+        <li class="hui-footer-link">
+          <a
+            href="https://www.linkedin.com/in/surbhi-kukreti-a91b0b163"
+            class="hui-footer-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <div id="legacyText">© 2022 | Surbhi Kukreti</div>
+    </footer>
   </body>
 </html>

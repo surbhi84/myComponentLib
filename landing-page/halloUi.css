@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url(/landing-page/footer.css);
+
+body {
+  font-family: var(--nunito);
+  margin: unset;
+  min-height: 100vh;
+}
+
+.landing-main {
+  background-color: var(--blue-bg);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: minmax(10%, max-content) 1fr minmax(10%, max-content);
+  min-height: 100vh;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-sm);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-anchor {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  margin-left: 0%;
+  width: 15rem;
+}
+
+.logo0 {
+  display: inline-block;
+  color: var(--sky-blue);
+}
+.logo05 {
+  display: inline-block;
+  color: var(--blue-pr);
+}
+.logo1 {
+  display: inline-block;
+  color: #000836;
+  font-family: var(--nunito);
+}
+
+.welcome-text {
+  width: 60%;
+}
+
+.main-btn {
+  font-size: var(--fs-l);
+  border: 0.2rem solid var(--blue-pr);
+  border-radius: 1rem;
+  padding: var(--spacing-md) var(--spacing-xl);
+  margin: var(--spacing-md) 0;
+  color: var(--sky-blue);
+  background-color: white;
+  background-size: cover;
+}
+
+.main-btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease-in-out;
+}

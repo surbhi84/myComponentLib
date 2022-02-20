@@ -1,0 +1,12 @@
+.showcase-div {
+  padding: var(--spacing-lg);
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  padding: var(--spacing-l);
+  gap: var(--spacing-l);
+  justify-content: space-around;
+}

@@ -1,16 +1,5 @@
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
-body {
-  font-family: var(--nunito);
-}
-
-.showcase-div {
-  display: flex;
-  flex-direction: column;
-  padding: var(--spacing-xl);
-  gap: var(--spacing-xl);
-}
-
 .card {
   margin-top: 2rem;
   flex-shrink: 0;
@@ -23,11 +12,6 @@ body {
 .img-size {
   height: 18rem;
   width: 18rem;
-}
-
-.pad-topleft {
-  padding-left: var(--spacing-2xs);
-  padding-top: var(--spacing-3xs);
 }
 
 .btns {
@@ -46,6 +30,7 @@ body {
   position: absolute;
   padding: 0 0.2rem;
   top: var(--spacing-sm);
+  left: 0;
 }
 
 .cross {
@@ -81,12 +66,4 @@ body {
 .hrz-img-size {
   height: 10rem;
   width: 10rem;
-}
-
-@media (max-width: 768px) {
-  .showcase-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }

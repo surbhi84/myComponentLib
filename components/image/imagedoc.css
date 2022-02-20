@@ -1,0 +1,5 @@
+.show-case {
+  height: auto;
+  width: 30%;
+  margin: var(--spacing-xl);
+}

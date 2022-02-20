@@ -1,12 +1,3 @@
-body {
-  font-family: var(--nunito);
-}
-
-.show {
-  margin: var(--spacing-l);
-  position: relative;
-}
-
 .input-style {
   height: 2rem;
   border: 0.125rem solid var(--blue-pr);
@@ -21,6 +12,7 @@ body {
 }
 
 .curved-edge {
+  height: 1.8rem;
   border-radius: 0.2rem;
   border: 0.15rem solid var(--green-light);
 }

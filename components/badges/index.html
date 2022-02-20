@@ -6,18 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Surbhi Kukreti" />
     <meta name="description" content="badge component" />
-    <link rel="stylesheet" href="/components/badges/badges.css" />
-    <link rel="stylesheet" href="/components/avatar/avatar.css" />
-    <link rel="stylesheet" href="/styleGuide/util.css" />
-    <link rel="stylesheet" href="/styleGuide/main.css" />
 
-    <link rel="stylesheet" href="/prism/prism.css" />
+    
+    <link rel="stylesheet" href="/components/badges/badges.css" />
+    <link rel="stylesheet" href="/components/badges/badgesdoc.css" />
+    <link rel="stylesheet" href="/components/avatar/avatardoc.css" />
+
+    <link rel="stylesheet" href="/import.css" />
+    
     <script src="/prism/prism.js" defer></script>
 
-    <title>Badge</title>
+    <title>Badge-HalloUi</title>
   </head>
   <body>
-    <h3>1.Icons with badges</h3>
+    <header class="head">
+      <div class="logo">
+        <a href="/home-page/" class="logo-anchor">
+          <h1 class="logo0 marg-un big-text">ha</h1>
+          <h1 class="logo0 marg-un big-text">LLo</h1>
+          <h1 class="logo05 marg-un big-text">!</h1>
+          <h1 class="logo1 marg-un">Ui</h1>
+        </a>
+      </div>
+      <li class="search">
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <button class="search-btn">
+          <img src="/home-page/media/search.svg" alt="search icon" class="search-icon" />
+        </button>
+      </li>
+    </header>
+
+    <main class="grid">
+      <div class="col-1">
+        <a href="/components/avatar" class="comp-name"> Avatar</a>
+        <a href="/components/badges" class="comp-name">Badge</a>
+        <a href="/components/alert" class="comp-name">Alert</a>
+        <a href="/components/button" class="comp-name">Button</a>
+        <a href="/components/cards" class="comp-name">Cards</a>
+        <a href="/components/image/" class="comp-name">Image</a>
+        <a href="/components/input/" class="comp-name">Input</a>
+        <a href="/components/text Utilities/" class="comp-name"
+          >Text Utilities</a
+        >
+        <a href="/components/list/" class="comp-name">List</a>
+        <a href="/components/navigation/" class="comp-name">Navigation</a>
+        <a href="/components/modal/" class="comp-name">Modal</a>
+        <a href="/components/snackbar/" class="comp-name">Snackbar</a>
+        <a href="/components/rating/" class="comp-name">Rating</a>
+        <a href="/components/grid/" class="comp-name">Grids</a>
+      </div>
+
+    <div class="col-2">
+      <h1>Badge</h1>
+      <p>A badge is a add-on to your element to convey a meaning or to pass an information that otherwise would have been rather difficult to explain.By using a badge you can pass on the information in a sleek and effortless manner without getting much into the details.A badge can be added to almost all types of elements but the most widely used are badges on buttons, avatars and icons. HalloUi provides you the two types, badges on icons and badges on avatars.</p>
+    <h2>Icons with badges</h2>
+    <p>A badge on icon can represent the amount of the information that the icon presents, for example,here 21 is the number of notifications that a user might have.you can use any icon of your choice and put it in the source the rest HalloUi will manage.HalloUi also enables you to choose a color of your choice to put in the background of badge. you can choose different colors from our color classes.</p>
     <div class="showcase-div">
       <div>
         <img
@@ -25,51 +68,82 @@
           alt="notification_icon"
           class="icon"
         />
-        <span class="badge">26</span>
+        <span class="badge bg-red">21</span>
       </div>
       <div>
         <img src="./iconSVG/message.svg" alt="message_icon" class="icon" />
-        <span class="badge">18</span>
+        <span class="badge bg-green">8</span>
       </div>
       <div>
         <img src="./iconSVG/email.svg" alt="email_icon" class="icon" />
-        <span class="badge blue">9</span>
+        <span class="badge bg-blue">9</span>
       </div>
       <div>
         <img src="./iconSVG/cart.svg" alt="cart_icon" class="icon" />
-        <span class="badge">13</span>
+        <span class="badge bg-red">13</span>
       </div>
     </div>
 
     <pre><code class="language-markup"> 
       <div>
         <img src="./iconSVG/notification.svg" alt="notification_icon" class="icon" />
-        <span class="badge">26</span>
+        <span class="badge bg-red">21</span>
       </div>
     </code></pre>
     <p></p>
 
-    <h3>2.Images with badges</h3>
+    <h2>Images with badges</h2>
+    <p>A badge on an image can reflect information such as a user's activity on the social or user's status such as free busy or so on by choosing a color for each state, badges can also be used to convey the mood of a user.you can use different color classes to change the color of the badge as well.</p>
 
     <div class="showcase-div">
       <div>
         <img src="./avatarIMG/dog1.jpg" alt="avatar_image" class="avatar" />
-        <span class="avatar-badge green"></span>
+        <span class="avatar-badge bg-green"></span>
       </div>
       <div>
         <img src="./avatarIMG/bunny1.jpg" alt="avatar_image" class="avatar" />
-        <span class="avatar-badge red"></span>
+        <span class="avatar-badge bg-red"></span>
       </div>
       <div>
         <img src="./avatarIMG/cat1.jpg" alt="avatar_image" class="avatar" />
-        <span class="avatar-badge blue"></span>
+        <span class="avatar-badge bg-blue"></span>
       </div>
     </div>
     <pre><code class="language-markup"> 
       <div>
         <img src="./avatarIMG/dog1.jpg" alt="avatar_image" class="avatar" />
-        <span class="avatar-badge green"></span>
+        <span class="avatar-badge bg-green"></span>
       </div>
     </code></pre>
+
+
+    <div>
+    </main>
+
+    <footer class="hui-footer">
+      <ul class="hui-footer-links">
+        <li class="hui-footer-link">
+          <a href="https://github.com/Surbhi84" class="hui-footer-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="hui-footer-link">
+          <a href="https://medium.com/@subuhikukreti" class="hui-footer-icon">
+            <i class="fab fa-medium-m"></i>
+          </a>
+        </li>
+        <li class="hui-footer-link">
+          <a
+            href="https://www.linkedin.com/in/surbhi-kukreti-a91b0b163"
+            class="hui-footer-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+     
+
+      <div id="legacyText">© 2022 | Surbhi Kukreti</div>
+    </footer>
   </body>
 </html>

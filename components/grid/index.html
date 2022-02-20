@@ -7,41 +7,83 @@
     <meta name="author" content="Surbhi Kukreti" />
     <meta name="description" content="grid component" />
 
-    <link rel="stylesheet" href="/styleGuide/main.css" />
-    <link rel="stylesheet" href="/styleGuide/util.css" />
-
     <link rel="stylesheet" href="./grid.css" />
+    <link rel="stylesheet" href="./griddoc.css" />
 
-    <link rel="stylesheet" href="/prism/prism.css" />
+    <link rel="stylesheet" href="/import.css" />
+
     <script src="/prism/prism.js" defer></script>
-    <title>Grid</title>
+    <title>Grid-HalloUi</title>
   </head>
   <body>
-    <h3 class="text-col-blue">Equal width grid columns</h3>
-
-    <h3>Grid with 2 columns</h3>
-    <div class="showcase">
-      <div class="grid-col2">
-        <div class="col color-bp">Grid column one</div>
-        <div class="col color-bp">Grid column two</div>
+    <header class="head">
+      <div class="logo">
+        <a href="/home-page/" class="logo-anchor">
+          <h1 class="logo0 marg-un big-text">ha</h1>
+          <h1 class="logo0 marg-un big-text">LLo</h1>
+          <h1 class="logo05 marg-un big-text">!</h1>
+          <h1 class="logo1 marg-un">Ui</h1>
+        </a>
       </div>
-    </div>
-    <pre><code class="language-markup">
+      <li class="search">
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <button class="search-btn">
+          <img
+            src="/home-page/media/search.svg"
+            alt="search icon"
+            class="search-icon"
+          />
+        </button>
+      </li>
+    </header>
+
+    <main class="grid">
+      <div class="col-1">
+        <a href="/components/avatar" class="comp-name"> Avatar</a>
+        <a href="/components/badges" class="comp-name">Badge</a>
+        <a href="/components/alert" class="comp-name">Alert</a>
+        <a href="/components/button" class="comp-name">Button</a>
+        <a href="/components/cards" class="comp-name">Cards</a>
+        <a href="/components/image/" class="comp-name">Image</a>
+        <a href="/components/input/" class="comp-name">Input</a>
+        <a href="/components/text Utilities/" class="comp-name"
+          >Text Utilities</a
+        >
+        <a href="/components/list/" class="comp-name">List</a>
+        <a href="/components/navigation/" class="comp-name">Navigation</a>
+        <a href="/components/modal/" class="comp-name">Modal</a>
+        <a href="/components/snackbar/" class="comp-name">Snackbar</a>
+        <a href="/components/rating/" class="comp-name">Rating</a>
+        <a href="/components/grid/" class="comp-name">Grids</a>
+      </div>
+
+      <div class="col-2">
+        <h1>Grids</h1>
+        <h2 class="text-col-blue">Equal width grid columns</h2>
+
+        <h2>Grid with 2 columns</h2>
+        <div class="showcase">
+          <div class="grid-col2">
+            <div class="col color-bp">Grid column one</div>
+            <div class="col color-bp">Grid column two</div>
+          </div>
+        </div>
+        <pre><code class="language-markup">
     <div class="grid-col2">
       <div class="col color-bp ">Grid column one</div>
       <div class="col color-bp">Grid column two</div>
     </div>
     </code></pre>
 
-    <h3>Grid with 3 columns</h3>
-    <div class="showcase">
-      <div class="grid-col3">
-        <div class="col color-rp">Grid column one</div>
-        <div class="col color-rp">Grid column two</div>
-        <div class="col color-rp">Grid column three</div>
-      </div>
-    </div>
-    <pre><code class="language-markup">
+        <h2>Grid with 3 columns</h2>
+        <div class="showcase">
+          <div class="grid-col3">
+            <div class="col color-rp">Grid column one</div>
+            <div class="col color-rp">Grid column two</div>
+            <div class="col color-rp">Grid column three</div>
+          </div>
+        </div>
+        <pre><code class="language-markup">
     <div class="grid-col3">
       <div class="col color-rp">Grid column one</div>
       <div class="col color-rp">Grid column two</div>
@@ -49,16 +91,16 @@
     </div>         
     </code></pre>
 
-    <h3>Grid with 4 columns</h3>
-    <div class="showcase">
-      <div class="grid-col4">
-        <div class="col color-bp">Grid column one</div>
-        <div class="col color-bp">Grid column two</div>
-        <div class="col color-bp">Grid column three</div>
-        <div class="col color-bp">Grid column four</div>
-      </div>
-    </div>
-    <pre><code class="language-markup">
+        <h2>Grid with 4 columns</h2>
+        <div class="showcase">
+          <div class="grid-col4">
+            <div class="col color-bp">Grid column one</div>
+            <div class="col color-bp">Grid column two</div>
+            <div class="col color-bp">Grid column three</div>
+            <div class="col color-bp">Grid column four</div>
+          </div>
+        </div>
+        <pre><code class="language-markup">
    <div class="grid-col4">
       <div class="col color-bp">Grid column one</div>
       <div class="col color-bp">Grid column two</div>
@@ -67,19 +109,19 @@
    </div>
     </code></pre>
 
-    <h3 class="text-col-blue">Vertical alignment for grids</h3>
+        <h2 class="text-col-blue">Vertical alignment for grids</h2>
 
-    <h3>center align</h3>
-    <div class="showcase-fix">
-      <div class="center-align">
-        <div class="grid-col3">
-          <div class="col color-gp">Grid column one</div>
-          <div class="col color-gp">Grid column two</div>
-          <div class="col color-gp">Grid column three</div>
+        <h2>center align</h2>
+        <div class="showcase-fix">
+          <div class="center-align">
+            <div class="grid-col3">
+              <div class="col color-gp">Grid column one</div>
+              <div class="col color-gp">Grid column two</div>
+              <div class="col color-gp">Grid column three</div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <pre><code class="language-markup">
+        <pre><code class="language-markup">
     <div class="center-align">
       <div class="grid-col3">
         <div class="col color-gp">Grid column one</div>
@@ -89,16 +131,16 @@
     </div>
     </code></pre>
 
-    <h3>Bottom align</h3>
-    <div class="showcase-fix">
-      <div class="bottom-align">
-        <div class="grid-col2">
-          <div class="col color-rp">Grid column one</div>
-          <div class="col color-rp">Grid column two</div>
+        <h2>Bottom align</h2>
+        <div class="showcase-fix">
+          <div class="bottom-align">
+            <div class="grid-col2">
+              <div class="col color-rp">Grid column one</div>
+              <div class="col color-rp">Grid column two</div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <pre><code class="language-markup">
+        <pre><code class="language-markup">
     <div class="bottom-align">
       <div class="grid-col2">
         <div class="col color-rp">Grid column one</div>
@@ -106,5 +148,31 @@
       </div>
     </div>   
     </code></pre>
+      </div>
+    </main>
+    <footer class="hui-footer">
+      <ul class="hui-footer-links">
+        <li class="hui-footer-link">
+          <a href="https://github.com/Surbhi84" class="hui-footer-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="hui-footer-link">
+          <a href="https://medium.com/@subuhikukreti" class="hui-footer-icon">
+            <i class="fab fa-medium-m"></i>
+          </a>
+        </li>
+        <li class="hui-footer-link">
+          <a
+            href="https://www.linkedin.com/in/surbhi-kukreti-a91b0b163"
+            class="hui-footer-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <div id="legacyText">© 2022 | Surbhi Kukreti</div>
+    </footer>
   </body>
 </html>

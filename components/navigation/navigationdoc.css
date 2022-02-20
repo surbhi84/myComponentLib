@@ -1,0 +1,26 @@
+.showcase {
+  border: 0.2rem solid var(--gray-dark);
+  border-radius: 0.1rem;
+  height: 20rem;
+  width: 50rem;
+  margin: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    height: 12rem;
+    width: max-content;
+    font-size: var(--fs-xxs);
+    overflow: hidden;
+  }
+  .search-bar {
+    padding: 0;
+    width: 4rem;
+  }
+  .nav-head {
+    padding: var(--spacing-2xs) var(--spacing-xs);
+  }
+  .nav-links {
+    gap: var(--spacing-sm);
+  }
+}
