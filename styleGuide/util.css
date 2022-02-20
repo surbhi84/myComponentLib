@@ -20,6 +20,10 @@
   margin-left: var(--spacing-2xs);
 }
 
+.pd-xs {
+  padding: 0.5rem;
+}
+
 .pd-s {
   padding: 1rem;
 }
@@ -111,10 +115,6 @@
 
 .color-bl {
   background-color: var(--blue-light);
-}
-.color-skyblu {
-  /* background-color: #97e7ff94; */
-  /* background-color: #1bb4de4d; */
 }
 
 .text-col-blue {
