@@ -52,7 +52,7 @@
 
 ## About The Project
 
-<img width="959" alt="2022-02-21" src="https://user-images.githubusercontent.com/56334321/154848075-bcf97580-a21c-450e-80a6-34427d6e8634.png">
+<img width="959" alt="2022-02-21" src="https://user-images.githubusercontent.com/56334321/154860911-84d97d10-af2a-415f-97e4-1c164be7717b.png">
 
 HalloUi gets its name from the german word hallo which means Hello. HalloUi welcomes you to the ease which halloUi provides you to develop smooth user interfaces. Here you will get predesigned layouts of basic components that you need to build your website. HalloUi components can be customised as well you can add colors of your choice and choose different sizes of a single component.
 
