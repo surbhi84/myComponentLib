@@ -87,9 +87,10 @@
 .pm-drawer-header {
   display: flex;
   align-items: center;
+  overflow: hidden;
   height: 4.3rem;
 }
 
-.icon {
+.bar-icon {
   font-size: var(--fs-m);
 }

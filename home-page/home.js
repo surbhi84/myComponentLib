@@ -6,9 +6,11 @@ else column.classList.add("display-none");
 
 menuBtn.addEventListener("click", viewColumn);
 window.onresize = () => {
-  console.log(menuBtn.style);
-  if (window.screen.width >= 768) column.classList.remove("display-none");
-  else column.classList.add("display-none");
+  // console.log(menuBtn.style);
+  if (window.innerWidth >= 768) column.classList.remove("display-none");
+  else {
+    column.classList.add("display-none");
+  }
 };
 
 window.onload = window.onresize;

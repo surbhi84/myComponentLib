@@ -62,29 +62,48 @@
 
       <div class="col-2">
         <h1>Responsive images</h1>
+        <p>
+          Images are an integral part of a website, we use images for our
+          website to look more attractive and appealing but what if your image
+          overflows out of your element and ruins the look but fret not it wont,
+          you only need to add Responsive images for that to not happen. The
+          responsive-img class of HalloUi does the same for you. wrap the img
+          with the classname in a div an give the div your custom lengths and
+          widths.
+        </p>
 
-        <div class="show-case">
-          <img
-            src="./media/image2.jpg"
-            alt="image can't be
-      loaded"
-            class="responsive-img"
-          />
-        </div>
-        <pre><code class="language-markup">
-      <img src="./media/image2.jpg" alt="beach" class="responsive-img" />
-    </code></pre>
+        <div class="flex-col gap-md">
+          <div>
+            <h2>Simple responsive image</h2>
 
-        <div class="show-case">
-          <img
-            src="./media/image1.jpg"
-            alt="sunset"
-            class="responsive-img circle"
-          />
-        </div>
-        <pre><code class="language-markup">
+            <div class="show-case">
+              <img
+                src="./media/image2.jpg"
+                alt="image can't be loaded"
+                class="responsive-img"
+              />
+            </div>
+
+            <pre><code class="language-markup">
+              <img src="./media/image2.jpg" alt="beach" class="responsive-img" />
+            </code></pre>
+          </div>
+
+          <div>
+            <h2>Round responsive image</h2>
+
+            <div class="show-case">
+              <img
+                src="./media/image1.jpg"
+                alt="sunset"
+                class="responsive-img circle"
+              />
+            </div>
+            <pre><code class="language-markup">
       <img src="./media/image1.jpg" alt="sunset" class="responsive-img circle" />
     </code></pre>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="hui-footer">

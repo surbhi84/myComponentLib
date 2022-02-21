@@ -1,10 +1,10 @@
-let menuBtn = document.querySelector(".icon");
+let barBtn = document.querySelector(".bar-icon");
 let drawer = document.querySelector(".drawer-parent");
 let cancelBtn = document.querySelector(".drawer-cancel");
 
 console.log("hey");
 
-menuBtn.addEventListener("click", viewDrawer);
+barBtn.addEventListener("click", viewDrawer);
 cancelBtn.addEventListener("click", hideDrawer);
 
 function hideDrawer() {
