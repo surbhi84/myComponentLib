@@ -17,7 +17,6 @@ function hideDrawer() {
 
 function viewDrawer() {
   drawer.style.visibility = "visible";
-
   drawer.classList.remove("out-view");
   drawer.classList.add("in-view");
 }

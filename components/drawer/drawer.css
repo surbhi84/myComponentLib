@@ -5,7 +5,9 @@
 .drawer-parent {
   padding-top: 0.8rem;
   width: 25%;
+  width: 15rem;
   background-color: var(--blue-pastel);
+  z-index: 1;
 }
 
 .title {
@@ -19,13 +21,11 @@
 }
 
 .out-view {
-  position: absolute;
   transform: translateX(-100%);
   transition: transform 0.5s ease;
 }
 
 .in-view {
-  position: relative;
   transform: translateX(0);
   transition: transform 0.5s ease;
 }
@@ -79,7 +79,7 @@
 }
 
 .vertical-comp {
-  position: sticky;
+  position: absolute;
   transition: ease;
   overflow: hidden;
 }

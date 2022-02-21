@@ -37,6 +37,7 @@
 =============================================*/
 
 :root {
+  box-sizing: border-box;
   /* Brand Colors */
 
   --dark: #1d1f22;

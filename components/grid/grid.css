@@ -34,3 +34,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 480) {
+  .showcase {
+    width: 100vw;
+  }
+}

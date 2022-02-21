@@ -27,12 +27,6 @@ body {
   padding: var(--spacing-sm);
   box-shadow: var(--shadow-header);
 }
-/* 
-.main-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .logo-anchor {
   text-decoration: none;
@@ -58,10 +52,6 @@ body {
   font-family: var(--nunito);
 }
 
-.welcome-text {
-  width: 60%;
-}
-
 .main-btn {
   font-size: var(--fs-l);
   border: 0.2rem solid var(--blue-pr);
@@ -76,4 +66,12 @@ body {
 .main-btn:hover {
   transform: scale(1.05);
   transition: transform 0.1s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  .welcome-text {
+    padding: var(--spacing-md);
+    margin: unset;
+    width: 60%;
+  }
 }

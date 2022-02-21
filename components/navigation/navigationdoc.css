@@ -6,12 +6,12 @@
   margin: var(--spacing-sm);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .showcase {
-    height: 12rem;
-    width: max-content;
+    height: 20rem;
+    width: 100vw;
     font-size: var(--fs-xxs);
-    overflow: hidden;
+    overflow: scroll;
   }
   .search-bar {
     padding: 0;
