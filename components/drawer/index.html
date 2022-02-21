@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta nme="description" content="Drawer component" />
+    <link rel="stylesheet" href="/components/drawer/drawer.css" />
+    <link rel="stylesheet" href="/components/drawer/drawerdoc.css" />
+
+    <link rel="stylesheet" href="/import.css" />
+
+    <script src="/components/drawer/drawer.js" defer></script>
+    <script src="/prism/prism.js" defer></script>
+
+    <title>Drawer</title>
+  </head>
+  <body>
+    <main>
+      <!-- showcase div -->
+      <div class="showcase flex-row">
+        <!-- drawer -->
+        <div class="drawer-parent">
+          <!-- drawer title  -->
+          <div class="title flex-row">
+            <div>
+              <h4 class="heading">WorldMail</h4>
+              <span class="subtext">mail4899@world.com</span>
+            </div>
+            <div class="drawer-cancel"><i class="fas fa-times"></i></div>
+          </div>
+          <!-- end of drawer title -->
+          <!-- drawer content -->
+          <ul class="drawer-items">
+            <li class="item">
+              <a>
+                <i class="fas fa-inbox"></i>
+                <span class="mg-left-sm">Inbox</span></a
+              >
+            </li>
+            <li class="item">
+              <a>
+                <i class="fas fa-star"></i>
+                <span class="mg-left-sm">Star</span></a
+              >
+            </li>
+            <li class="item">
+              <a>
+                <i class="fas fa-paper-plane"></i>
+                <span class="mg-left-sm">Sent mail</span></a
+              >
+            </li>
+            <li class="item">
+              <a>
+                <i class="fas fa-envelope-open-text"></i>
+                <span class="mg-left-sm">Drafts</span>
+              </a>
+            </li>
+          </ul>
+
+          <hr class="hr" />
+
+          <ul class="drawer-items">
+            <li class="item">
+              <a>
+                <i class="fas fa-bookmark"></i>
+                <span class="mg-left-sm">Family</span></a
+              >
+            </li>
+            <li class="item">
+              <a>
+                <i class="fas fa-bookmark"></i>
+                <span class="mg-left-sm">Friends</span>
+              </a>
+            </li>
+            <li class="item">
+              <a>
+                <i class="fas fa-bookmark"></i>
+                <span class="mg-left-sm">Work</span>
+              </a>
+            </li>
+            <hr class="hr" />
+
+            <li class="item">
+              <a
+                ><i class="fas fa-cog"></i>
+                <span class="mg-left-sm">settings</span></a
+              >
+            </li>
+            <li class="item">
+              <a>
+                <i class="fas fa-info-circle"></i>
+                <span class="mg-left-sm">Help and feedback</span></a
+              >
+            </li>
+          </ul>
+          <!-- end of drawer content -->
+        </div>
+        <!-- end of drawer -->
+
+        <!-- vertical component -->
+        <div class="vertical-comp mg-left-sm">
+          <header class="pm-drawer-header">
+            <span class="icon"><i class="fas fa-bars"></i></span>
+
+            <h2 class="heading1">Permanent Drawer</h2>
+          </header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+            voluptatibus dolore eligendi. Ratione voluptatum eius ipsam
+            molestias eveniet aliquam accusantium!
+          </p>
+        </div>
+        <!-- end of vertical component -->
+      </div>
+      <!-- end of showcase -->
+    </main>
+  </body>
+</html>

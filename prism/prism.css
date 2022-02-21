@@ -158,9 +158,3 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
 .language-markup {
   width: 60vw;
 }
-
-@media (max-width: 768px) {
-  .language-markup {
-    width: 90vw;
-  }
-}

@@ -25,15 +25,14 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: var(--spacing-sm);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow: var(--shadow-header);
 }
-
+/* 
 .main-section {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .logo-anchor {
   text-decoration: none;
@@ -70,7 +69,7 @@ body {
   padding: var(--spacing-md) var(--spacing-xl);
   margin: var(--spacing-md) 0;
   color: var(--sky-blue);
-  background-color: white;
+  background-color: var(--white);
   background-size: cover;
 }
 
