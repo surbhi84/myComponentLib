@@ -1,0 +1,96 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+
+.drawer-parent {
+  padding-top: 0.8rem;
+  width: 25%;
+  width: 15rem;
+  background-color: var(--blue-pastel);
+  z-index: 1;
+}
+
+.title {
+  padding-left: 0.8rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.drawer-cancel {
+  margin-left: auto;
+  padding: 0 var(--spacing-sm);
+}
+
+.out-view {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+
+.in-view {
+  transform: translateX(0);
+  transition: transform 0.5s ease;
+}
+
+.last-drawer {
+  padding: 0 0 0.3rem 0.5rem;
+}
+
+.subtext {
+  font-size: 0.8rem;
+}
+
+.heading,
+.heading1 {
+  color: var(--blue-pr);
+  margin: 0;
+}
+
+.heading1 {
+  color: var();
+  margin-left: 0.5rem;
+}
+
+.drawer-items {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 0.8rem;
+  margin-bottom: 0.4rem;
+  border-radius: 5px;
+  color: var(--gray);
+}
+
+.item:hover {
+  color: var(--sky-blue);
+  background-color: var(--blue-bg);
+}
+
+.item-name {
+  margin-left: 2.5rem;
+}
+
+.hr {
+  color: var(--gray-light);
+}
+
+.vertical-comp {
+  position: absolute;
+  transition: ease;
+  overflow: hidden;
+}
+
+.pm-drawer-header {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 4.3rem;
+}
+
+.bar-icon {
+  font-size: var(--fs-m);
+}

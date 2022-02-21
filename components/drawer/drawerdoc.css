@@ -1,0 +1,7 @@
+.showcase {
+  overflow: hidden;
+  border: 0.2rem solid var(--gray-dark);
+  border-radius: 0.1rem;
+
+  margin: var(--spacing-sm);
+}

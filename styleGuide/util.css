@@ -1,6 +1,8 @@
 @import url(/components/navigation/navigation.css);
 @import url(/components/text\ Utilities/textUtil.css);
 
+/* margin */
+
 .mg-xs {
   margin: var(--spacing-2xs);
 }
@@ -19,6 +21,23 @@
 .mg-left {
   margin-left: var(--spacing-2xs);
 }
+
+.mg-left-sm {
+  margin-left: var(--spacing-xs);
+}
+
+.marg-un {
+  margin: unset;
+}
+
+.marg-un-left {
+  margin-left: unset;
+}
+.mg-left-auto {
+  margin-left: auto;
+}
+
+/* padding */
 
 .pd-xs {
   padding: 0.5rem;
@@ -44,6 +63,8 @@
   padding-left: var(--spacing-l);
 }
 
+/* text-utils */
+
 .text-center {
   text-align: center;
 }
@@ -51,6 +72,8 @@
 .text-dec-none {
   text-decoration: none;
 }
+
+/* flex-utils */
 
 .flex-col {
   display: flex;
@@ -91,14 +114,6 @@
   gap: var(--spacing-xl);
 }
 
-.marg-un {
-  margin: unset;
-}
-
-.marg-un-left {
-  margin-left: unset;
-}
-
 /* colors */
 
 .color-gp {
@@ -129,10 +144,14 @@
   color: #04195b;
 }
 
-@media (max-width: 768px) {
+.display-none {
+  display: none;
+}
+
+/* @media (max-width: 768px) {
   body {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-}
+} */

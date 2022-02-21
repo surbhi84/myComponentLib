@@ -7,16 +7,20 @@
     <meta name="author" content="Surbhi Kukreti" />
     <meta nme="description" content="component library" />
 
-    <link rel="stylesheet" href="/components/navigation/navigation.css" />
     <link rel="stylesheet" href="/components/text Utilities/textUtil.css" />
+    <link rel="stylesheet" href="/components/navigation/navigation.css" />
 
     <link rel="stylesheet" href="/import.css" />
 
-    <script src="/prism/prism.js" defer></script>
+     <script src="/prism/prism.js" defer></script>
+    <script src="/home-page/home.js" defer></script>
+    
 
     <title>HalloUi-Home</title>
   </head>
   <body>
+
+ <!-- header -->
     <header class="head">
       <div class="logo">
         <a href="/index.html" class="logo-anchor">
@@ -26,15 +30,20 @@
           <h1 class="logo1 marg-un">Ui</h1>
         </a>
       </div>
-      <li class="search">
+      <div class="search">
         <input type="text" placeholder="Search..." class="search-bar" />
         <button class="search-btn">
-          <img src="./media/search.svg" alt="search icon" class="search-icon" />
+          <img src="/home-page/media/search.svg" alt="search icon" class="search-icon" />
         </button>
-      </li>
+      </div>
+      <div class="col-1-btn mg-xs hamburger-icon"> <i class="fas fa-bars"></i> </div>
     </header>
+    <!-- end of header -->
 
+    <!-- main section -->
     <main class="grid">
+
+      <!-- sidebar for component display -->
       <div class="col-1">
         <a href="/components/avatar" class="comp-name"> Avatar</a>
         <a href="/components/badges" class="comp-name">Badge</a>
@@ -50,10 +59,14 @@
         <a href="/components/navigation/" class="comp-name">Navigation</a>
         <a href="/components/modal/" class="comp-name">Modal</a>
         <a href="/components/snackbar/" class="comp-name">Snackbar</a>
-        <a href="/components/rating/" class="comp-name">Rating</a>
+         <a href="/components/rating/" class="comp-name">Rating</a>
         <a href="/components/grid/" class="comp-name">Grids</a>
+        <a href="/components/drawer/" class="comp-name">Drawer</a>
       </div>
+      <!-- end of sidebar -->
 
+
+      <!-- right content -->
       <div class="col-2 text-col-navy">
         <h1 class="marg-un">What is HalloUi?</h1>
         <p class="marg-un-left">
@@ -86,7 +99,13 @@
           use HalloUi!
         </p>
       </div>
+      <!-- end of right content  -->
+
     </main>
+    <!-- end of main section -->
+
+
+    <!-- footer -->
     <footer class="hui-footer">
       <ul class="hui-footer-links">
         <li class="hui-footer-link">
@@ -107,9 +126,9 @@
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
-     
 
       <div id="legacyText">© 2022 | Surbhi Kukreti</div>
     </footer>
+    <!-- end of footer -->
   </body>
 </html>

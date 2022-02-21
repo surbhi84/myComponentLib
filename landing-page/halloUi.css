@@ -7,6 +7,7 @@
 body {
   font-family: var(--nunito);
   margin: unset;
+  max-width: 100vw;
   min-height: 100vh;
 }
 
@@ -25,14 +26,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: var(--spacing-sm);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-}
-
-.main-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  box-shadow: var(--shadow-header);
 }
 
 .logo-anchor {
@@ -59,10 +53,6 @@ body {
   font-family: var(--nunito);
 }
 
-.welcome-text {
-  width: 60%;
-}
-
 .main-btn {
   font-size: var(--fs-l);
   border: 0.2rem solid var(--blue-pr);
@@ -70,11 +60,19 @@ body {
   padding: var(--spacing-md) var(--spacing-xl);
   margin: var(--spacing-md) 0;
   color: var(--sky-blue);
-  background-color: white;
+  background-color: var(--white);
   background-size: cover;
 }
 
 .main-btn:hover {
   transform: scale(1.05);
   transition: transform 0.1s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  .welcome-text {
+    padding: var(--spacing-md);
+    margin: unset;
+    width: 60%;
+  }
 }

@@ -4,9 +4,15 @@
   border: 0.1rem solid var(--gray-lighter);
   padding: var(--spacing-l);
   margin: var(--spacing-l);
-  width: 40rem;
+  width: 60%;
 }
 
 .showcase-fix {
   height: 10rem;
+}
+
+@media screen and (max-width: 480px) {
+  .showcase {
+    width: 80%;
+  }
 }
