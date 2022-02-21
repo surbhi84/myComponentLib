@@ -2,7 +2,7 @@
   overflow: hidden;
   border: 0.2rem solid var(--gray-dark);
   border-radius: 0.1rem;
-  height: 80%;
+
   width: 80vw;
   margin: var(--spacing-sm);
 }
