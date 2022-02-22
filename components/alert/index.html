@@ -75,11 +75,13 @@
           <h2>Simple alert</h2>
           <p class="marg-un">
             Simple alerts can be used to convey quick information that can be
-            summarised in a sentence to the user.Here you can use a font Awesome(fa) icon or
-            google icon as well, in the example below a downloaded google icon
-            has been used.Different colors represent different emotions and
-            meanings so be careful in choosing which alert to use when.You can change color classes in these alerts as well,
-            color-gp stands for green-pastel and so we have four base pastel colors, rp stands for red pastel and so on.
+            summarised in a sentence to the user.Here you can use a font
+            Awesome(fa) icon or google icon as well, in the example below a
+            downloaded google icon has been used.Different colors represent
+            different emotions and meanings so be careful in choosing which
+            alert to use when.You can change color classes in these alerts as
+            well, color-gp stands for green-pastel and so we have four base
+            pastel colors, rp stands for red pastel and so on.
           </p>
           <div class="alert color-gp">
             <img src="./iconSvg/checkFilled.svg" alt="check icon" />
@@ -106,36 +108,38 @@
           </div>
 
           <pre><code class="language-markup">
-        <div class="alert color-gp">
-          <img src="./iconSvg/checkFilled.svg" alt="check icon">
-          your product has been added to cart.
-          <span class="cross"><i class="fas fa-times"></i></span>
-        </div>
+      <div class="alert color-gp">
+        <img src="./iconSvg/checkFilled.svg" alt="check icon">
+        your product has been added to cart.
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+      <div class="alert color-rp">
+        <img src="./iconSvg/errorFilled.svg" alt="error icon" />
+        Ooops! your product can't be added to cart.
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
 
-        <div class="alert color-rp">
-          <img src="./iconSvg/errorFilled.svg" alt="error icon" />
-          Ooops! your product can't be added to cart.
-          <span class="cross"><i class="fas fa-times"></i></span>
-        </div>
-  
-        <div class="alert color-yp">
-          <img src="./iconSvg/errorFilledOrange.svg" alt="error icon" />
-          There is some issue, upgrade now!
-          <span class="cross"><i class="fas fa-times"></i></span>
-        </div>
-  
-        <div class="alert color-bp">
-          <img src="./iconSvg/infoFilled.svg" alt="info icon" />
-          Sale is going live buy your faves soon!
-          <span class="cross"><i class="fas fa-times"></i></span>
-        </div>
+      <div class="alert color-yp">
+        <img src="./iconSvg/errorFilledOrange.svg" alt="error icon" />
+        There is some issue, upgrade now!
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
+
+      <div class="alert color-bp">
+        <img src="./iconSvg/infoFilled.svg" alt="info icon" />
+        Sale is going live buy your faves soon!
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
       </code></pre>
 
           <h2>Detailed alert</h2>
           <p class="marg-un">
             Detailed alerts are useful to pass on a brief message to the user,
-            you can let them know the important details in this manner along 
-            with a heading for the alert. In this component one icon svg has been used, you can choose to use an fa or google icon as well just put it in the smae line as the img tag and you're done.For the cancel icon only fa has been used.
+            you can let them know the important details in this manner along
+            with a heading for the alert. In this component one icon svg has
+            been used, you can choose to use an fa or google icon as well just
+            put it in the smae line as the img tag and you're done.For the
+            cancel icon only fa has been used.
           </p>
           <div class="alert color-gp flex-col">
             <span class="cross"><i class="fas fa-times"></i></span>
@@ -158,32 +162,32 @@
           </div>
 
           <pre><code class="language-markup">
-        <div class="alert color-gp flex-col">
-          <span class="cross"><i class="fas fa-times"></i></span>
-          <img src="./iconSvg/verifiedFilled.svg" alt="verified icon" />
-          <strong class="notify">Account verified</strong>
-          <p class="text-center marg-un">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ut sapiente mollitia.
-          </p>
-        </div>
-  
-        <div class="alert color-rp flex-col">
-          <span class="cross"><i class="fas fa-times"></i></span>
-          <img src="./iconSvg/errorFilled.svg" alt="error icon" />
-          <strong class="notify">Error verifying</strong>
-          <p class="text-center marg-un">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ut sapiente mollitia.
-          </p>
-        </div>
+      <div class="alert color-gp flex-col">
+        <span class="cross"><i class="fas fa-times"></i></span>
+        <img src="./iconSvg/verifiedFilled.svg" alt="verified icon" />
+        <strong class="notify">Account verified</strong>
+        <p class="text-center marg-un">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Ut sapiente mollitia.
+        </p>
+      </div>
+      <div class="alert color-rp flex-col">
+        <span class="cross"><i class="fas fa-times"></i></span>
+        <img src="./iconSvg/errorFilled.svg" alt="error icon" />
+        <strong class="notify">Error verifying</strong>
+        <p class="text-center marg-un">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Ut sapiente mollitia.
+        </p>
+      </div>
       </code></pre>
 
           <h2>Detailed alert horizontal align</h2>
           <p class="marg-un">
             This is just another design variation for your detailed alert you
-            can choose the one that fits nicely into your web page.</p>
+            can choose the one that fits nicely into your web page.
           </p>
+
           <div class="alert color-gp">
             <img src="./iconSvg/check.svg" alt="check icon" />
             <div class="flex-col">
@@ -197,21 +201,22 @@
           </div>
 
           <pre><code class="language-markup">
-        <div class="alert color-gp">
-          <img src="./iconSvg/check.svg" alt="check icon" />
-          <div class="flex-col">
-            <strong>Success!</strong>
-            <p class="marg-un">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, id!
-            </p>
-          </div>
-          <span class="cross"><i class="fas fa-times"></i></span>
+      <div class="alert color-gp">
+        <img src="./iconSvg/check.svg" alt="check icon" />
+        <div class="flex-col">
+          <strong>Success!</strong>
+          <p class="marg-un">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores, id!
+          </p>
         </div>
+        <span class="cross"><i class="fas fa-times"></i></span>
+      </div>
       </code></pre>
         </div>
       </div>
     </main>
+
     <footer class="hui-footer">
       <ul class="hui-footer-links">
         <li class="hui-footer-link">

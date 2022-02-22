@@ -18,7 +18,7 @@
   </head>
 
   <body>
-
+    <!-- start of header -->
     <header class="head">
       <div class="logo">
         <a href="/home-page/" class="logo-anchor">
@@ -35,10 +35,12 @@
         </button>
       </div>
       <div class="col-1-btn mg-xs"> <i class="fas fa-bars"></i> </div>
-    
     </header>
+    <!-- end of header -->
 
+    <!-- start of main -->
     <main class="grid">
+      <!-- sidebar -->
       <div class="col-1">
         <a href="/components/avatar" class="comp-name"> Avatar</a>
         <a href="/components/badges" class="comp-name">Badge</a>
@@ -58,15 +60,16 @@
         <a href="/components/grid/" class="comp-name">Grids</a>
         <a href="/components/drawer/" class="comp-name">Drawer</a>
         <a href="/components/rangeSlider/" class="comp-name">Range Slider</a>
-
       </div>
+      <!-- end of sidebar -->
 
+      <!-- col-2 main -->
     <div class="col-2">
-<h1>Cards</h1>
-<p>Cards are used everywhere and exhibit usecases for all kinds of purposes. HalloUi's card components represents a product card although you can remove one or more elements in the code to achieve different purposes.But if you're looking for a product card only, use the classes and elements as is to achieve the same results.</p>
-    <div class="showcase-div">
-      <div>
-        <h3>Simple card with shadow</h3>
+    <h1>Cards</h1>
+    <p>Cards are used everywhere and exhibit usecases for all kinds of purposes. HalloUi's card components represents a product card although you can remove one or more elements     in the code to achieve different purposes.But if you're looking for a product card only, use the classes and elements as is to achieve the same results.</p>
+
+      
+        <h2>Simple card with shadow</h2>
         <p>This is a basic card layout that has a shadow on its body so it looks distinct from all other elements.For these classes to work properly try to keep the html structure same or atleast add the concerned classes at the right places.</p> 
         <div class="card">
           <img src="./mugs.webp" alt="mug set" class="img-size" />
@@ -84,27 +87,27 @@
             <button class="btn"><img src="./iconSvg/cart.svg" /></button>
           </div>
         </div>
-      </div>
+     
 
       <pre><code class="language-markup">
- <div class="card">
-   <img src="./mugs.webp" alt="mug set" class="img-size" />
-   <div class="pad-topleft">
-     <h4 class="marg-un">GOODHOMES</h4>
-     <span>4-Pcs Printed Bone China Cups Set</span>
- </div>
-   <div class="pad-topleft">
-     <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
- </div>
-   <div class="btns">
-     <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
-     <button class="btn"><img src="./iconSvg/cart.svg" /></button>
- </div>
-   </div>
-    </code></pre>
+       <div class="card">
+         <img src="./mugs.webp" alt="mug set" class="img-size" />
+         <div class="pad-topleft">
+           <h4 class="marg-un">GOODHOMES</h4>
+           <span>4-Pcs Printed Bone China Cups Set</span>
+         </div>
+         <div class="pad-topleft">
+           <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+         </div>
+         <div class="btns">
+           <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+           <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+         </div>
+      </div>
+      </code></pre>
 
       <div>
-        <h3>Card with badge</h3>
+        <h2>Card with badge</h2>
         <p>A card with badge conveys a piece of information to the user via the badge, in this card the badge can tell a user how the product has performed in the market.Many Leading brands use this kind of badges and tells the user information like if a product is a Bestseller or Trending etc.</p>
         <div class="card">
           <span class="card-badge">#1 Bestseller</span>
@@ -124,25 +127,25 @@
       </div>
 
       <pre><code class="language-markup">
- <div class="card">
-   <span class="card-badge">#1 Bestseller</span>
-   <img src="./mugs.webp" alt="mug set" class="img-size" />
-   <div class="pad-topleft">
-     <h4 class="marg-un">GOODHOMES</h4>
-     <span>4-Pcs Printed Bone China Cups Set</span>
-   </div>
-   <div class="pad-topleft">
-     <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
-   </div>
-   <div class="btns">
-     <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
-     <button class="btn"><img src="./iconSvg/cart.svg" /></button>
-   </div>
- </div>
+       <div class="card">
+         <span class="card-badge">#1 Bestseller</span>
+         <img src="./mugs.webp" alt="mug set" class="img-size" />
+         <div class="pad-topleft">
+           <h4 class="marg-un">GOODHOMES</h4>
+           <span>4-Pcs Printed Bone China Cups Set</span>
+         </div>
+         <div class="pad-topleft">
+           <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+         </div>
+         <div class="btns">
+           <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+           <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+         </div>
+       </div>
       </code></pre>
 
       <div>
-        <h3>Card with close icon</h3>
+        <h2>Card with close icon</h2>
         <p>You usually open a card by clicking on it so it just becomes obvious to also close it back, in this card you get a cross button to close the card.</p>
 
         <div class="card">
@@ -165,27 +168,27 @@
       </div>
 
       <pre><code class="language-markup">
-<div class="card">
-  <span class="cross">
-    <i class="fas fa-times" style="font-size: 1.2rem"> </i>
-  </span>
-  <img src="./mugs.webp" alt="mug set" class="img-size" />
-  <div class="pad-topleft">
-    <h4 class="marg-un">GOODHOMES</h4>
-    <span>4-Pcs Printed Bone China Cups Set</span>
-  </div>
-  <div class="pad-topleft">
-    <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
-  </div>
-  <div class="btns">
-    <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
-    <button class="btn"><img src="./iconSvg/cart.svg" /></button>
-  </div>
-</div>
+      <div class="card">
+        <span class="cross">
+          <i class="fas fa-times" style="font-size: 1.2rem"> </i>
+        </span>
+        <img src="./mugs.webp" alt="mug set" class="img-size" />
+        <div class="pad-topleft">
+          <h4 class="marg-un">GOODHOMES</h4>
+          <span>4-Pcs Printed Bone China Cups Set</span>
+        </div>
+        <div class="pad-topleft">
+          <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+        </div>
+        <div class="btns">
+          <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+          <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+        </div>
+      </div>
       </code></pre>
 
       <div>
-        <h3>Card with text overlay</h3>
+        <h2>Card with text overlay</h2>
         <p>Card with text overlay conveys meaningful messages to user, it can also be used to give styling to an element.In ecommerce it is used to represent out of stock items. Here the card overlay text is only the product name.</p>
         <div class="card text-overlay-card">
           <img src="./mugs.webp" alt="mug set" class="img-size" />
@@ -204,24 +207,24 @@
       </div>
 
       <pre><code class="language-markup">
-<div class="card text-overlay-card">
-  <img src="./mugs.webp" alt="mug set" class="img-size" />
-  <div class="text-overlay pad-topleft">
-    <h4 class="marg-un">GOODHOMES</h4>
-    <span>4-Pcs Printed Bone China Cups Set</span>
-  </div>
-  <div class="pad-topleft">
-    <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
-  </div>
-  <div class="btns">
-    <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
-    <button class="btn"><img src="./iconSvg/cart.svg" /></button>
-  </div>
-</div>
+      <div class="card text-overlay-card">
+        <img src="./mugs.webp" alt="mug set" class="img-size" />
+        <div class="text-overlay pad-topleft">
+          <h4 class="marg-un">GOODHOMES</h4>
+          <span>4-Pcs Printed Bone China Cups Set</span>
+        </div>
+        <div class="pad-topleft">
+          <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+        </div>
+        <div class="btns">
+          <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+          <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+        </div>
+      </div>
       </code></pre>
 
       <div>
-        <h3>Card with only text</h3>
+        <h2>Card with only text</h2>
         <p>Only text cards are use to represent textual knowledge to the user who asked for it. </p>
         <div class="text-only card">
           <div class="pad-topleft">
@@ -238,26 +241,25 @@
           </div>
         </div>
       </div>
-
+      
       <pre><code class="language-markup">
-<div class="text-only card">
-  <div class="pad-topleft">
-    <h4 class="marg-un">GOODHOMES</h4>
-    <span>4-Pcs Printed Bone China Cups Set</span>
-    <strong> PRODUCT DETAILS</strong>
-    <p class="marg-un">
-      Pattern: Printed Finish: Glossy Material: Bone China Material & Care
-      Bone China Wipe with a clean, dry cloth to remove dust
-    </p>
-  </div>
-  <div class="pad-topleft">
-    <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
-  </div>
-</div>
-      </code></pre>
+      <div class="text-only card">
+        <div class="pad-topleft">
+          <h4 class="marg-un">GOODHOMES</h4>
+          <span>4-Pcs Printed Bone China Cups Set</span>
+          <strong> PRODUCT DETAILS</strong>
+          <p class="marg-un">
+            Pattern: Printed Finish: Glossy Material: Bone China Material & Care
+            Bone China Wipe with a clean, dry cloth to remove dust
+          </p>
+        </div>
+        <div class="pad-topleft">
+          <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+        </div>
+      </div></code></pre>
 
       <div>
-        <h3>Horizontal card</h3>
+        <h2>Horizontal card</h2>
 
         <p>If you're building a full blown ecommerce web application only the vertical card wont suit all your purposes thus comes the horizontal card in view.Horizontal cards can be used for mobile developement purposes as well as to describe a different domain. </p>
         <div class="hrz-card">
@@ -280,24 +282,24 @@
         </div>
       </div>
 
-<pre><code class="language-markup">
-<div class="hrz-card">
-  <img src="./mugs.webp" alt="mug set" class="hrz-img-size" />
-   <div class="pad-topleft">
-    <div class="pad-topleft" >
-      <h4 class="marg-un">GOODHOMES</h4>
-      <span>4-Pcs Printed Bone China Cups Set</span>
-    </div>
-    <div class="pad-topleft">
-      <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
-    </div>
-    <div class="btns">
-      <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
-      <button class="btn"><img src="./iconSvg/cart.svg" /></button>
-    </div>
-  </div>
-</div>
-</code></pre>
+      <pre><code class="language-markup">
+      <div class="hrz-card">
+        <img src="./mugs.webp" alt="mug set" class="hrz-img-size" />
+        <div class="pad-topleft">
+         <div class="pad-topleft" >
+           <h4 class="marg-un">GOODHOMES</h4>
+           <span>4-Pcs Printed Bone China Cups Set</span>
+         </div>
+         <div class="pad-topleft">
+           <strong> Rs. 749 </strong> <s>999</s> <span>25% OFF</span>
+         </div>
+         <div class="btns">
+           <button class="btn"><img src="./iconSvg/heartFilled.svg" /></button>
+           <button class="btn"><img src="./iconSvg/cart.svg" /></button>
+         </div>
+        </div>
+      </div>
+  </code></pre>
 
 
     </div>
