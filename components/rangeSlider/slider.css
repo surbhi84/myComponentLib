@@ -70,6 +70,9 @@
   width: 100%;
 }
 
+.money-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
 .money-slider::-moz-range-thumb:hover,
 .money-slider::-moz-range-thumb:active {
   transform: scale(1.2);
