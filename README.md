@@ -129,7 +129,7 @@ The listing of component is below and it redirects you to the component itself.
 
 ## Usage
 
-You can use this project to create more websites, HalloUi offers you components that are a need for every modern website.
+You can use this project to create more websites, HalloUi offers you components that are a need for every modern website.Use the predefined classes that HalloUi offers to build interesting components in your own project or you can just copy the code snippet that is provided with all the components.
                                 
 <img width="959" alt="2022-02-21 (1)" src="https://user-images.githubusercontent.com/56334321/154860732-c17b047e-53d7-4551-8776-e4daad034ae4.png">
                                 
