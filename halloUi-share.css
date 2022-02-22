@@ -12,5 +12,8 @@
 @import url(/components/rating/rating.css);
 @import url(/components/snackbar/snackbar.css);
 @import url(/components/text\ Utilities/textUtil.css);
+@import url(/components/drawer/drawer.css);
+@import url(/components/rangeSlider/slider.css);
+
 @import url(/styleGuide/util.css);
 @import url(/styleGuide/main.css);
