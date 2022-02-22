@@ -32,7 +32,7 @@
 
 .col-1 {
   display: grid;
-  grid-template-rows: repeat(15, 3.5rem);
+  grid-template-rows: repeat(16, 3.5rem);
 }
 
 .col-1-btn {
@@ -41,6 +41,7 @@
 }
 
 .col-2 {
+  max-width: 100%;
   padding: var(--spacing-xl);
 }
 

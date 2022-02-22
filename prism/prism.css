@@ -104,7 +104,7 @@ div.code-toolbar {
 }
 div.code-toolbar > .toolbar {
   position: absolute;
-  z-index: 10;
+
   bottom: 1.5rem;
   left: 1rem;
   transition: opacity 0.3s ease-in-out;
@@ -156,11 +156,11 @@ div.code-toolbar > .toolbar > .toolbar-item > span:hover {
 }
 
 .language-markup {
-  width: 60vw;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
   .language-markup {
-    width: 80vw;
+    width: 90%;
   }
 }

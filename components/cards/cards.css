@@ -1,7 +1,7 @@
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
 .card {
-  margin-top: 2rem;
+  margin: var(--spacing-xl) 0;
   flex-shrink: 0;
   position: relative;
   height: 25rem;
@@ -34,10 +34,9 @@
 }
 
 .cross {
-  height: 2rem;
   color: var(--white);
   position: absolute;
-  font-size: var(--fs-xl);
+  font-size: var(--fs-m);
   right: var(--spacing-sm);
   top: var(--spacing-sm);
 }
@@ -47,7 +46,7 @@
   bottom: 8rem;
   font-weight: var(--fw-bold);
   padding-right: var(--spacing-xs);
-  background-color: rgba(255, 255, 255, 0.151);
+  background-color: rgba(255, 255, 255, 0.469);
 }
 
 .text-only {
@@ -57,7 +56,8 @@
 .hrz-card {
   display: flex;
   align-items: center;
-  margin-top: var(--spacing-xl);
+  margin: var(--spacing-xl) 0;
+
   height: 10rem;
   width: 18rem;
   box-shadow: var(--shadow-subtle);

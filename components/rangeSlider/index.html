@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Surbhi Kukreti" />
+    <meta name="description" content="Range Slider component" />
+
+    <link rel="stylesheet" href="/components/rangeSlider/slider.css" />
+    <link rel="stylesheet" href="/import.css" />
+    <script src="/prism/prism.js" defer></script>
+    <script src="/home-page/home.js" defer></script>
+    <title>Slider-HalloUi</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="head">
+      <div class="logo">
+        <a href="/index.html" class="logo-anchor">
+          <h1 class="logo0 marg-un big-text">ha</h1>
+          <h1 class="logo0 marg-un big-text">LLo</h1>
+          <h1 class="logo05 marg-un big-text">!</h1>
+          <h1 class="logo1 marg-un">Ui</h1>
+        </a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <button class="search-btn">
+          <img
+            src="/home-page/media/search.svg"
+            alt="search icon"
+            class="search-icon"
+          />
+        </button>
+      </div>
+      <div class="col-1-btn mg-xs"><i class="fas fa-bars"></i></div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of main -->
+    <main class="grid">
+      <div class="col-1">
+        <a href="/components/avatar" class="comp-name"> Avatar</a>
+        <a href="/components/badges" class="comp-name">Badge</a>
+        <a href="/components/alert" class="comp-name">Alert</a>
+        <a href="/components/button" class="comp-name">Button</a>
+        <a href="/components/cards" class="comp-name">Cards</a>
+        <a href="/components/image/" class="comp-name">Image</a>
+        <a href="/components/input/" class="comp-name">Input</a>
+        <a href="/components/text Utilities/" class="comp-name"
+          >Text Utilities</a
+        >
+        <a href="/components/list/" class="comp-name">List</a>
+        <a href="/components/navigation/" class="comp-name">Navigation</a>
+        <a href="/components/modal/" class="comp-name">Modal</a>
+        <a href="/components/snackbar/" class="comp-name">Snackbar</a>
+        <a href="/components/rating/" class="comp-name">Rating</a>
+        <a href="/components/grid/" class="comp-name">Grids</a>
+        <a href="/components/drawer/" class="comp-name">Drawer</a>
+        <a href="/components/rangeSlider/" class="comp-name">Range Slider</a>
+      </div>
+
+      <div class="col-2">
+        <h1>Range Slider</h1>
+        <p>
+          Range sliders provides you a way of taking feedback in terms of ranges
+          from the user and it can also be used for various filters or simply to
+          communicate with the user.
+        </p>
+
+        <h3>Emoji Range Slider</h3>
+        <p>
+          HalloUi presents to you an emoji slider with easy to implement classes
+          and you can choose any emojis of your choice. The custom emoji slider
+          is suitable to take reviews or track moods of your fellows. It is a
+          fun and entertaining way of taking feedback from your users. If you
+          want to use different enojis for your slider just copy the desired
+          emojis in place of the existing ones. Do take note that whatever width
+          you will give to display-wrap or any other div you wanna wrap the
+          slider in will take its parents full width. It is designed this way so
+          that you can customise the length of the sliders.
+        </p>
+
+        <div class="display-wrap">
+          <div class="input-range-div">
+            <input type="range" class="emoji-slider" />
+            <ul class="range-values flex-row">
+              <li>☹️</li>
+              <li>😊</li>
+              <li>😍</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- pre tag -->
+
+        <pre><code class="language-markup">
+     <div class="display-wrap ">
+      <div class="input-range-div">
+         <input type="range" class="emoji-slider" />
+         <ul class="range-values flex-row">
+           <li>☹️</li>
+           <li>😊</li>
+           <li>😍</li>
+         </ul>
+      </div>
+     </div>
+        </code></pre>
+        <!-- end of pre tag -->
+
+        <h3>Money Range Slider</h3>
+        <p>
+          Money range slider is made for the purpose of ecommerce websites or
+          any other websites that you might need it in.You can change the value
+          in the li tag and that's it.These sliders for now only support mozilla
+          and wont keep progress tracking in chrome.Soon we will incorporate
+          that functioning as well.
+        </p>
+
+        <div class="display-wrap">
+          <div class="input-range-div">
+            <input type="range" class="money-slider" />
+            <ul class="range-values flex-row">
+              <li class="bold-text">₹100</li>
+              <li class="bold-text">₹500</li>
+              <li class="bold-text">₹1000</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- pre tag -->
+        <pre><code class="language-markup">
+     <div class="display-wrap">
+      <div class="input-range-div">
+         <input type="range" class="money-slider" />
+         <ul class="range-values flex-row">
+          <li class="bold-text" >₹100</li>
+          <li class="bold-text">₹500</li>
+          <li class="bold-text">₹1000</li>
+         </ul>
+      </div>
+     </div>
+      </code></pre>
+        <!-- end of pre tag -->
+      </div>
+    </main>
+    <!-- end of main -->
+  </body>
+</html>
