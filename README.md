@@ -41,6 +41,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#Components">Components</a></li>
+   
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -98,8 +100,30 @@ and voila you have your own Component Library app ready!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+## Components
+
+HalloUi provides you with 16 components that you can incorporate in your projects by just using a few classnames, there is no installation you just need to add this [<link rel="stylesheet" href="https://halloui.netlify.app/halloUi-share.css">](<link rel="stylesheet" href="https://halloui.netlify.app/halloUi-share.css">) in your html file and you are good to go.
+The listing of component is below and it redirects you to the component itself.
+
+- [Alert](https://halloui.netlify.app/components/alert/)
+- [Avatar](https://halloui.netlify.app/components/avatar/)
+- [Badges](https://halloui.netlify.app/components/badges/)
+- [Button](https://halloui.netlify.app/components/button/)
+- [Cards](https://halloui.netlify.app/components/cards/)
+- [Drawer](https://halloui.netlify.app/components/drawer/)
+- [Grid](https://halloui.netlify.app/components/grid/)
+- [Image](https://halloui.netlify.app/components/image/)
+- [Input](https://halloui.netlify.app/components/input/)
+- [List](https://halloui.netlify.app/components/list/)
+- [Modal](https://halloui.netlify.app/components/modal/)
+- [Navigation](https://halloui.netlify.app/components/navigation/)
+- [Range Slider](https://halloui.netlify.app/components/rangeSlider/)
+- [Rating](https://halloui.netlify.app/components/rating/)
+- [Snackbar](https://halloui.netlify.app/components/snackbar/)
+- [Text Utilities](https://halloui.netlify.app/components/text utilities/)
+
 <!-- USAGE EXAMPLES -->
- 
 
 ## Usage
 
