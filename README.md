@@ -122,6 +122,9 @@ The listing of component is below and it redirects you to the component itself.
 - [Snackbar](https://halloui.netlify.app/components/snackbar/)
 - [Text Utilities](https://halloui.netlify.app/components/text%20utilities/)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
