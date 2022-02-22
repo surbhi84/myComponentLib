@@ -34,10 +34,9 @@
 }
 
 .cross {
-  height: 2rem;
   color: var(--white);
   position: absolute;
-  font-size: var(--fs-xl);
+  font-size: var(--fs-m);
   right: var(--spacing-sm);
   top: var(--spacing-sm);
 }
