@@ -136,3 +136,9 @@
   margin-bottom: var(--spacing-xl);
   width: 20%;
 }
+
+@media screen and (max-width: 480px) {
+  .display-wrap {
+    width: 50%;
+  }
+}
