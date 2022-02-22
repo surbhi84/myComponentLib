@@ -41,8 +41,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    
-    <li><a href="#Components">Components</a></li>
+    <li><a href="#components">Components</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -121,7 +120,7 @@ The listing of component is below and it redirects you to the component itself.
 - [Range Slider](https://halloui.netlify.app/components/rangeSlider/)
 - [Rating](https://halloui.netlify.app/components/rating/)
 - [Snackbar](https://halloui.netlify.app/components/snackbar/)
-- [Text Utilities](https://halloui.netlify.app/components/text utilities/)
+- [Text Utilities](https://halloui.netlify.app/components/text%20utilities/)
 
 <!-- USAGE EXAMPLES -->
 
